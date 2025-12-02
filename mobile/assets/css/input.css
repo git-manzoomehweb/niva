@@ -3,6 +3,20 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --text-primary: #ffb52a;
+    --text-primary-50: #F9F9F6;
+    --text-primary-100: #e7f0d6;
+    --text-primary-200: #d7e6bd;
+    --text-primary-300: #c8dca5;
+    --text-primary-400: #bcd492;
+    --text-primary-500: #b1cc81;
+    --text-primary-600: #8ea76b;
+    --text-primary-700: #7c9262;
+    --text-primary-800: #5f6f52;
+    --text-primary-900: #30342C;
+    --text-primary-950: #282C25;
+}
 @layer utilities {
     /*color*/
     .text-primary-50 { color: var(--text-primary-50); }
