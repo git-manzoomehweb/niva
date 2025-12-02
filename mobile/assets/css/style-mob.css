@@ -256,11 +256,10 @@ img {
     content: '';
     background: linear-gradient(360deg, rgba(0, 0, 0, 0) 72.39%, rgba(0, 0, 0, 0.78) 100%),
     linear-gradient(180deg, rgba(40, 44, 37, 0.77) 0%, #282C25 100%);
-
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 1;
+    z-index: 0;
     width: 100%;
     height: 100%;
     border-radius: 30px;

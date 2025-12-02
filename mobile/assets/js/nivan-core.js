@@ -26,8 +26,14 @@ var swiper = new Swiper(".swiper-tour-4", {
         el: ".swiper-pagination-tour-4",
     },
 });
-
-
+// swiper-user
+var swiper = new Swiper(".swiper-user", {
+    slidesPerView: 1.5,
+    pagination: {
+        el: ".swiper-pagination-user",
+    },
+    spaceBetween:20,
+});
 // tab-tour
 function openTab(evt, tabId) {
     const buttons = document.getElementsByClassName("btn-tab");
