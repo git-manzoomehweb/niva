@@ -1344,6 +1344,29 @@
                         </div>
                     </div>
                 </div>
+                <div class="p-pagination w-full mt-18 flex justify-center">
+                    <div class="pagination p-[4px] rounded-[50px] w-[330px] h-[50px] flex items-center justify-between bg-primary-50">
+                        <button class="next-page">
+                            <svg  width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="44" height="44" rx="22" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.1161 26.7732C20.8232 27.0661 20.3483 27.0661 20.0555 26.7732L15.8128 22.5305C15.5199 22.2377 15.5199 21.7628 15.8128 21.4699L20.0555 17.2272C20.3483 16.9344 20.8232 16.9344 21.1161 17.2272C21.409 17.5201 21.409 17.995 21.1161 18.2879L18.1538 21.2502L27.6568 21.2502C28.0711 21.2502 28.4068 21.586 28.4068 22.0002C28.4068 22.4145 28.0711 22.7502 27.6569 22.7502L18.1538 22.7502L21.1161 25.7125C21.409 26.0054 21.409 26.4803 21.1161 26.7732Z" fill="#5F6F52"/>
+                            </svg>
+                        </button>
+                        <div class="pages w-3/4 px-3 grid grid-cols-4">
+                           <button class="danaRegular text-[12px]">1</button>
+                           <button class="danaRegular text-[12px]">2</button>
+                           <button class="danaRegular text-[12px]">3</button>
+                           <button class="danaRegular text-[12px]">4</button>
+                        </div>
+
+                        <button class="prev-page">
+                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="44" height="44" rx="22" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M22.8839 17.227C23.1768 16.9341 23.6517 16.9341 23.9445 17.227L28.1872 21.4697C28.4801 21.7626 28.4801 22.2374 28.1872 22.5303L23.9445 26.773C23.6517 27.0659 23.1768 27.0659 22.8839 26.773C22.591 26.4801 22.591 26.0052 22.8839 25.7123L25.8462 22.75L16.3432 22.75C15.9289 22.75 15.5932 22.4142 15.5932 22C15.5932 21.5858 15.9289 21.25 16.3431 21.25L25.8462 21.25L22.8839 18.2877C22.591 17.9948 22.591 17.5199 22.8839 17.227Z" fill="#5F6F52"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -1568,14 +1591,19 @@
                             </svg>
 
                         </button>
-                        <img class="rounded-[12px] h-[58px] object-cover border-1 border-[#f4f4f4]"  src="../assets/images/captcha.png"
+                        <img class="rounded-[12px] h-[58px] object-cover border-1 border-[#f4f4f4]"
+                             src="../assets/images/captcha.png"
                              alt="">
                         <input class="px-4 bg-primary-50  rounded-[12px] h-[58px] text-primary-800 text-[16px] w-[13%] danaRegular"
                                placeholder="code" type="text">
                         <button class="bg-primary-800 h-[58px] w-[58px] rounded-[12px] flex items-center justify-center">
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M19.4274 0.578299C18.9274 0.0672987 18.1874 -0.121701 17.4974 0.0782986L1.40742 4.7273C0.67942 4.9293 0.16342 5.5063 0.0244202 6.2383C-0.11758 6.9843 0.37842 7.9323 1.02642 8.3283L6.05742 11.4003C6.57342 11.7163 7.23942 11.6373 7.66642 11.2093L13.4274 5.4483C13.7174 5.1473 14.1974 5.1473 14.4874 5.4483C14.7774 5.7373 14.7774 6.2083 14.4874 6.5083L8.71642 12.2693C8.28842 12.6973 8.20842 13.3613 8.52342 13.8783L11.5974 18.9283C11.9574 19.5273 12.5774 19.8683 13.2574 19.8683C13.3374 19.8683 13.4274 19.8683 13.5074 19.8573C14.2874 19.7583 14.9074 19.2273 15.1374 18.4773L19.9074 2.5083C20.1174 1.8283 19.9274 1.0883 19.4274 0.578299Z" fill="white"/>
-                                <path opacity="0.4" d="M7.45139 17.1423C7.74339 17.4353 7.74339 17.9103 7.45139 18.2033L6.08539 19.5683C5.93939 19.7153 5.74739 19.7883 5.55539 19.7883C5.36339 19.7883 5.17139 19.7153 5.02539 19.5683C4.73239 19.2753 4.73239 18.8013 5.02539 18.5083L6.39039 17.1423C6.68339 16.8503 7.15839 16.8503 7.45139 17.1423ZM6.66769 13.3543C6.95969 13.6473 6.95969 14.1223 6.66769 14.4153L5.30169 15.7803C5.15569 15.9273 4.96369 16.0003 4.77169 16.0003C4.57969 16.0003 4.38769 15.9273 4.24169 15.7803C3.94869 15.4873 3.94869 15.0133 4.24169 14.7203L5.60669 13.3543C5.89969 13.0623 6.37469 13.0623 6.66769 13.3543ZM2.90649 12.1619C3.19849 12.4549 3.19849 12.9299 2.90649 13.2229L1.54049 14.5879C1.39449 14.7349 1.20249 14.8079 1.01049 14.8079C0.818492 14.8079 0.626492 14.7349 0.480492 14.5879C0.187492 14.2949 0.187492 13.8209 0.480492 13.5279L1.84549 12.1619C2.13849 11.8699 2.61349 11.8699 2.90649 12.1619Z" fill="white"/>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.4274 0.578299C18.9274 0.0672987 18.1874 -0.121701 17.4974 0.0782986L1.40742 4.7273C0.67942 4.9293 0.16342 5.5063 0.0244202 6.2383C-0.11758 6.9843 0.37842 7.9323 1.02642 8.3283L6.05742 11.4003C6.57342 11.7163 7.23942 11.6373 7.66642 11.2093L13.4274 5.4483C13.7174 5.1473 14.1974 5.1473 14.4874 5.4483C14.7774 5.7373 14.7774 6.2083 14.4874 6.5083L8.71642 12.2693C8.28842 12.6973 8.20842 13.3613 8.52342 13.8783L11.5974 18.9283C11.9574 19.5273 12.5774 19.8683 13.2574 19.8683C13.3374 19.8683 13.4274 19.8683 13.5074 19.8573C14.2874 19.7583 14.9074 19.2273 15.1374 18.4773L19.9074 2.5083C20.1174 1.8283 19.9274 1.0883 19.4274 0.578299Z"
+                                      fill="white"/>
+                                <path opacity="0.4"
+                                      d="M7.45139 17.1423C7.74339 17.4353 7.74339 17.9103 7.45139 18.2033L6.08539 19.5683C5.93939 19.7153 5.74739 19.7883 5.55539 19.7883C5.36339 19.7883 5.17139 19.7153 5.02539 19.5683C4.73239 19.2753 4.73239 18.8013 5.02539 18.5083L6.39039 17.1423C6.68339 16.8503 7.15839 16.8503 7.45139 17.1423ZM6.66769 13.3543C6.95969 13.6473 6.95969 14.1223 6.66769 14.4153L5.30169 15.7803C5.15569 15.9273 4.96369 16.0003 4.77169 16.0003C4.57969 16.0003 4.38769 15.9273 4.24169 15.7803C3.94869 15.4873 3.94869 15.0133 4.24169 14.7203L5.60669 13.3543C5.89969 13.0623 6.37469 13.0623 6.66769 13.3543ZM2.90649 12.1619C3.19849 12.4549 3.19849 12.9299 2.90649 13.2229L1.54049 14.5879C1.39449 14.7349 1.20249 14.8079 1.01049 14.8079C0.818492 14.8079 0.626492 14.7349 0.480492 14.5879C0.187492 14.2949 0.187492 13.8209 0.480492 13.5279L1.84549 12.1619C2.13849 11.8699 2.61349 11.8699 2.90649 12.1619Z"
+                                      fill="white"/>
                             </svg>
 
                         </button>
@@ -1620,10 +1648,15 @@
                     <div class="p-social-media w-full flex flex-col items-start mt-7">
                         <h5 class="text-zinc-900 danaRegular">Fallow me</h5>
                         <div class="w-full mt-4 flex items-center gap-6">
-                            <a class="ease hover:scale-[1.1]" href=""><img width="54" src="../assets/images/instagram.png" alt=""></a>
-                            <a class="ease hover:scale-[1.1]" href=""><img width="54" src="../assets/images/facebook.png" alt=""></a>
-                            <a class="ease hover:scale-[1.1]" href=""><img width="54" src="../assets/images/x.png" alt=""></a>
-                            <a class="ease hover:scale-[1.1]" href=""><img width="54" src="../assets/images/linkdin.png" alt=""></a>
+                            <a class="ease hover:scale-[1.1]" href=""><img width="54"
+                                                                           src="../assets/images/instagram.png" alt=""></a>
+                            <a class="ease hover:scale-[1.1]" href=""><img width="54"
+                                                                           src="../assets/images/facebook.png"
+                                                                           alt=""></a>
+                            <a class="ease hover:scale-[1.1]" href=""><img width="54" src="../assets/images/x.png"
+                                                                           alt=""></a>
+                            <a class="ease hover:scale-[1.1]" href=""><img width="54" src="../assets/images/linkdin.png"
+                                                                           alt=""></a>
                         </div>
                     </div>
                     <div class="flex items-center gap-4 mt-7">
@@ -1647,10 +1680,14 @@
                     <div class="flex flex-col items-center">
                         <h5 class="danaBold text-zinc-950 text-[16px]">Category</h5>
                         <ul class="grid relative left-[-12px] mt-7 gap-6">
-                            <li><a class="text-zinc-600 hover:text-zinc-400 ease text-[12px] danaRegular" href="">Hotel</a></li>
-                            <li><a class="text-zinc-600 hover:text-zinc-400 ease text-[12px] danaRegular" href="">Hotel</a></li>
-                            <li><a class="text-zinc-600 hover:text-zinc-400 ease text-[12px] danaRegular" href="">Hotel</a></li>
-                            <li><a class="text-zinc-600 hover:text-zinc-400 ease text-[12px] danaRegular" href="">Hotel</a></li>
+                            <li><a class="text-zinc-600 hover:text-zinc-400 ease text-[12px] danaRegular"
+                                   href="">Hotel</a></li>
+                            <li><a class="text-zinc-600 hover:text-zinc-400 ease text-[12px] danaRegular"
+                                   href="">Hotel</a></li>
+                            <li><a class="text-zinc-600 hover:text-zinc-400 ease text-[12px] danaRegular"
+                                   href="">Hotel</a></li>
+                            <li><a class="text-zinc-600 hover:text-zinc-400 ease text-[12px] danaRegular"
+                                   href="">Hotel</a></li>
                         </ul>
                     </div>
                     <div class="flex flex-col items-center">
@@ -1733,13 +1770,17 @@
                            placeholder="Email" type="text">
                     <button class="h-[58px] w-[58px] bg-primary-950 flex items-center justify-center rounded-[12px]">
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M15.3862 5.82422C18.4872 5.82422 21.0002 8.33822 21.0002 11.4392C21.0002 14.5402 18.4872 17.0532 15.3862 17.0532H8.61523" stroke="#FDFADE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M4.309 15.0422C3.492 14.0672 3 12.8112 3 11.4392C3 8.33822 5.514 5.82422 8.615 5.82422H12.0005" stroke="#FDFADE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M11.2363 14.4297L8.61328 17.0527L11.2363 19.6767" stroke="#FDFADE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M15.3862 5.82422C18.4872 5.82422 21.0002 8.33822 21.0002 11.4392C21.0002 14.5402 18.4872 17.0532 15.3862 17.0532H8.61523"
+                                  stroke="#FDFADE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M4.309 15.0422C3.492 14.0672 3 12.8112 3 11.4392C3 8.33822 5.514 5.82422 8.615 5.82422H12.0005"
+                                  stroke="#FDFADE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M11.2363 14.4297L8.61328 17.0527L11.2363 19.6767" stroke="#FDFADE"
+                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
 
                     </button>
-                    <img class="rounded-[12px] h-[58px] object-cover" width="110" src="../assets/images/captcha.png" alt="">
+                    <img class="rounded-[12px] h-[58px] object-cover" width="110" src="../assets/images/captcha.png"
+                         alt="">
                     <input class="px-4 bg-primary-950  rounded-[12px] h-[58px] text-color-1 text-[16px] w-[13%] danaRegular"
                            placeholder="code" type="text">
                     <button class="w-[10%] h-[58px] bg-color-1 rounded-[12px] flex items-center justify-center">
@@ -1754,7 +1795,7 @@
 
 <!--scripts-->
 <script src="https://cdn.basiscore.net/basisfly.com/js/swiper-bundle.min.js"></script>
-<script src="../assets/js/nivan-core.js"></script>
+<script src="../assets/js/niva-core.js"></script>
 </body>
 
 </html>
