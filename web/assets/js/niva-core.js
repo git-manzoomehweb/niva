@@ -43,3 +43,5 @@ function openTabBlog(evt, tabId) {
     evt.currentTarget.classList.add("active");
     document.getElementById(tabId).classList.add("active");
 }
+
+

@@ -16,6 +16,7 @@
     --text-primary-800: #5f6f52;
     --text-primary-900: #30342C;
     --text-primary-950: #282C25;
+    --special-color:#FDFADE;
 }
 @layer utilities {
     /*color*/
@@ -54,5 +55,12 @@
     .border-primary-800 { border-color: var(--text-primary-800); }
     .border-primary-900 { border-color: var(--text-primary-900); }
     .border-primary-950 { border-color: var(--text-primary-950); }
+    .text-color-1{color: var(--special-color);}
 }
 
+.swiper-pagination-bullet-active{
+    background: var(--text-primary-600);
+}
+input::placeholder{
+    color: var(--text-primary-800);
+}

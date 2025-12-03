@@ -9,17 +9,53 @@
 </head>
 
 <body>
-    <main>
-        <section class="flex flex-col gap-6 items-center mx-auto max-lg:w-[90%] my-80">
-            <img src="" class="w-[500px] h-96 object-cover" alt="404" width="500" height="384"
-                loading="lazy">
-            <h1 class="text-sm text-zinc-700">صفحه مورد نظر یافت نشد</h1>
+<main>
+    <input class="inp" type="text" placeholder="search user">
+    <ul class="users">
 
-            <a href="/"
-                class="w-44 h-12 flex items-center justify-center text-sm text-white bg-primary-800 rounded-lg mt-3">
-                بازگشت به صفحه اصلی</a>
-        </section>
-    </main>
+    </ul>
+</main>
+
+
+<script src="../assets/js/niva-core.js"></script>
+<script>
+    const users = [
+        {name: 'milad', age: 28},
+        {name: 'alireza', age: 29},
+        {name: 'farhad', age: 30},
+        {name: 'mohammad', age: 20},
+    ];
+    const ulUsers = document.querySelector('.users');
+    const inpUser = document.querySelector('.inp');
+
+
+    function displayShow(usersToDisplay) {
+        usersToDisplay.forEach(item => {
+            ulUsers.innerHTML += `
+                <li class="flex items-center gap-2">
+                  <span>${item.name}</span>
+                  ----
+                  <span>${item.age}</span>
+                </li>
+            `
+        })
+    }
+
+    displayShow(users)
+
+    inpUser.addEventListener('input', function () {
+        const searchTerm = inpUser.value
+        let usersToDisplay;
+        if (searchTerm.trim() === "") {
+            usersToDisplay = users;
+        } else {
+            usersToDisplay = users.filter(item=>{
+                item.name.toLowerCase().includes(searchTerm.toLowerCase())
+            })
+        }
+        displayShow(usersToDisplay);
+    })
+</script>
 </body>
 
 </html>

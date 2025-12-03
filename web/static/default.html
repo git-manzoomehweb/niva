@@ -65,7 +65,7 @@
         <div class="c-container">
             <div class="p-tour w-full flex flex-col items-center">
                 <div class="w-full flex flex-col items-center title">
-                    <h2 class="danaBold text-[36px] text-zinc-900">Most Popular Tours</h2>
+                    <h2 class="danaBold text-[36px] text-zinc-900 title-animate">Most Popular Tours</h2>
                     <h6 class="text-zinc-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt </h6>
                     <div class="tabs w-full flex items-center justify-center gap-3 mt-7">
@@ -444,7 +444,7 @@
         <div class="c-container">
             <div class="p-about w-full flex gap-11 items-center">
                 <div class="col-text w-[45%] flex flex-col items-start">
-                    <h3 class="text-zinc-900 danaBold text-[36px]">Get to Know Us</h3>
+                    <h3 class="text-zinc-900 danaBold text-[36px] title-animate">Get to Know Us</h3>
                     <p class="text-zinc-600 danaRegular text-[16px] mt-4 text-justify">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae
@@ -489,7 +489,7 @@
         <div class="c-container">
             <div class="p-tour w-full flex flex-col items-center">
                 <div class="w-full flex flex-col items-center title">
-                    <h2 class="danaBold text-[36px] text-zinc-900">Trending Destinations</h2>
+                    <h2 class="danaBold text-[36px] text-zinc-900 title-animate">Trending Destinations</h2>
                     <h6 class="text-zinc-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt </h6>
                 </div>
@@ -498,30 +498,51 @@
                         <div class="img w-full h-full absolute top-0 left-0 z-0">
                             <img class="w-full ease h-full relative right-0 top-0 z-1" src="../assets/images/img-2.png"
                                  alt="">
-                            <div class="back-img w-full h-full absolute right-0 bottom-0 z-5">
-
-                            </div>
+                            <div class="back-img w-full h-full absolute right-0 bottom-0 z-5"></div>
                         </div>
                         <div class="detail pb-[18px] relative z-10 px-[16px] w-full flex flex-col items-start">
                             <h3 class="danaBold text-white text-[20px]">istanbul</h3>
                             <span class="danaRegular text-white text-[12px]">Lorem ipsum dolor sit amet, consectetur </span>
                             <div class="w-full relative flex items-center mt-3">
-                                <a href="" class="w-full justify-center relative mt-3">
-                                    <svg width="100%" height="48" viewBox="0 0 279 48" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M199 0C205.634 1.22528e-06 211.639 2.69138 215.983 7.04199L216 7C219.277 9.45752 223.262 19.6788 233.909 12.5361C237.977 5.06776 245.897 0 255 0C268.255 0 279 10.7452 279 24C279 37.2548 268.255 48 255 48C245.897 48 237.977 42.9317 233.909 35.4629C223.262 28.3208 219.277 38.5425 216 41L215.983 40.957C211.639 45.3079 205.634 48 199 48H24C10.7452 48 0 37.2548 0 24C0 10.7452 10.7452 0 24 0H199Z"
-                                              fill="white"/>
-                                    </svg>
-                                    <h5 class="text-[16px] top-[13px] right-[47%] absolute  text-zinc-900">204 Tour</h5>
-                                    <span class=" top-[16px] right-[5.5%] absolute">
-<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M6.49978 11.8081L11.8081 6.49978M11.8081 6.49978L6.49978 1.19141M11.8081 6.49978L1.19141 6.49978"
-      stroke="#18181B" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+                                <a href="" class="btn-s h-[50px] w-full flex items-center justify-between mt-4">
+                                    <h5 class="title-btn h-[48px] rounded-[50px] flex items-center justify-center w-[80%] bg-white text-zinc-900">204 Tour</h5>
 
+                                    <div class="p relative w-[15px] flex items-center justify-center flex-col">
+                                        <div class=" absolute h-[18px] w-[24px] flex items-center justify-center">
+                                            <svg width="25" fill="#fff" height="34" viewBox="0 0 25 34" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                        d="M0 2 C6 10, 19 10, 25 2"
+                                                        stroke="#fff"
+                                                        stroke-width="0"
+                                                        fill="none"
+                                                        stroke-linecap="round"
+                                                />
 
-                                </span>
+                                                <path
+                                                        d="M0 32 C6 24, 19 24, 25 32"
+                                                        stroke="#fff"
+                                                        stroke-width="0"
+                                                        fill="none"
+                                                        stroke-linecap="round"
+                                                />
+
+                                                <path
+                                                        d="M0 2 C6 10, 19 10, 25 2 L25 32 C19 24, 6 24, 0 32 Z"
+                                                        fill="#fff"
+                                                        stroke="none"
+                                                />
+
+                                            </svg>
+                                        </div>
+                                    </div>
+
+                                    <div class="w-[48px] h-[48px] rounded-[50%] flex items-center justify-center bg-white">
+                                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.49978 11.8081L11.8081 6.49978M11.8081 6.49978L6.49978 1.19141M11.8081 6.49978L1.19141 6.49978" stroke="#18181B" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </div>
                                 </a>
+
 
                             </div>
                         </div>
@@ -530,30 +551,51 @@
                         <div class="img w-full h-full absolute top-0 left-0 z-0">
                             <img class="w-full ease h-full relative right-0 top-0 z-1" src="../assets/images/img-2.png"
                                  alt="">
-                            <div class="back-img w-full h-full absolute right-0 bottom-0 z-5">
-
-                            </div>
+                            <div class="back-img w-full h-full absolute right-0 bottom-0 z-5"></div>
                         </div>
                         <div class="detail pb-[18px] relative z-10 px-[16px] w-full flex flex-col items-start">
                             <h3 class="danaBold text-white text-[20px]">istanbul</h3>
                             <span class="danaRegular text-white text-[12px]">Lorem ipsum dolor sit amet, consectetur </span>
                             <div class="w-full relative flex items-center mt-3">
-                                <a href="" class="w-full justify-center relative mt-3">
-                                    <svg width="100%" height="48" viewBox="0 0 279 48" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M199 0C205.634 1.22528e-06 211.639 2.69138 215.983 7.04199L216 7C219.277 9.45752 223.262 19.6788 233.909 12.5361C237.977 5.06776 245.897 0 255 0C268.255 0 279 10.7452 279 24C279 37.2548 268.255 48 255 48C245.897 48 237.977 42.9317 233.909 35.4629C223.262 28.3208 219.277 38.5425 216 41L215.983 40.957C211.639 45.3079 205.634 48 199 48H24C10.7452 48 0 37.2548 0 24C0 10.7452 10.7452 0 24 0H199Z"
-                                              fill="white"/>
-                                    </svg>
-                                    <h5 class="text-[16px] top-[13px] right-[47%] absolute  text-zinc-900">204 Tour</h5>
-                                    <span class=" top-[16px] right-[5.5%] absolute">
-<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M6.49978 11.8081L11.8081 6.49978M11.8081 6.49978L6.49978 1.19141M11.8081 6.49978L1.19141 6.49978"
-      stroke="#18181B" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+                                <a href="" class="btn-s h-[50px] w-full flex items-center justify-between mt-4">
+                                    <h5 class="title-btn h-[48px] rounded-[50px] flex items-center justify-center w-[80%] bg-white text-zinc-900">204 Tour</h5>
 
+                                    <div class="p relative w-[15px] flex items-center justify-center flex-col">
+                                        <div class=" absolute h-[18px] w-[24px] flex items-center justify-center">
+                                            <svg width="25" fill="#fff" height="34" viewBox="0 0 25 34" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                        d="M0 2 C6 10, 19 10, 25 2"
+                                                        stroke="#fff"
+                                                        stroke-width="0"
+                                                        fill="none"
+                                                        stroke-linecap="round"
+                                                />
 
-                                </span>
+                                                <path
+                                                        d="M0 32 C6 24, 19 24, 25 32"
+                                                        stroke="#fff"
+                                                        stroke-width="0"
+                                                        fill="none"
+                                                        stroke-linecap="round"
+                                                />
+
+                                                <path
+                                                        d="M0 2 C6 10, 19 10, 25 2 L25 32 C19 24, 6 24, 0 32 Z"
+                                                        fill="#fff"
+                                                        stroke="none"
+                                                />
+
+                                            </svg>
+                                        </div>
+                                    </div>
+
+                                    <div class="w-[48px] h-[48px] rounded-[50%] flex items-center justify-center bg-white">
+                                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.49978 11.8081L11.8081 6.49978M11.8081 6.49978L6.49978 1.19141M11.8081 6.49978L1.19141 6.49978" stroke="#18181B" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </div>
                                 </a>
+
 
                             </div>
                         </div>
@@ -562,30 +604,51 @@
                         <div class="img w-full h-full absolute top-0 left-0 z-0">
                             <img class="w-full ease h-full relative right-0 top-0 z-1" src="../assets/images/img-2.png"
                                  alt="">
-                            <div class="back-img w-full h-full absolute right-0 bottom-0 z-5">
-
-                            </div>
+                            <div class="back-img w-full h-full absolute right-0 bottom-0 z-5"></div>
                         </div>
                         <div class="detail pb-[18px] relative z-10 px-[16px] w-full flex flex-col items-start">
                             <h3 class="danaBold text-white text-[20px]">istanbul</h3>
                             <span class="danaRegular text-white text-[12px]">Lorem ipsum dolor sit amet, consectetur </span>
                             <div class="w-full relative flex items-center mt-3">
-                                <a href="" class="w-full justify-center relative mt-3">
-                                    <svg width="100%" height="48" viewBox="0 0 279 48" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M199 0C205.634 1.22528e-06 211.639 2.69138 215.983 7.04199L216 7C219.277 9.45752 223.262 19.6788 233.909 12.5361C237.977 5.06776 245.897 0 255 0C268.255 0 279 10.7452 279 24C279 37.2548 268.255 48 255 48C245.897 48 237.977 42.9317 233.909 35.4629C223.262 28.3208 219.277 38.5425 216 41L215.983 40.957C211.639 45.3079 205.634 48 199 48H24C10.7452 48 0 37.2548 0 24C0 10.7452 10.7452 0 24 0H199Z"
-                                              fill="white"/>
-                                    </svg>
-                                    <h5 class="text-[16px] top-[13px] right-[47%] absolute  text-zinc-900">204 Tour</h5>
-                                    <span class=" top-[16px] right-[5.5%] absolute">
-<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M6.49978 11.8081L11.8081 6.49978M11.8081 6.49978L6.49978 1.19141M11.8081 6.49978L1.19141 6.49978"
-      stroke="#18181B" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+                                <a href="" class="btn-s h-[50px] w-full flex items-center justify-between mt-4">
+                                    <h5 class="title-btn h-[48px] rounded-[50px] flex items-center justify-center w-[80%] bg-white text-zinc-900">204 Tour</h5>
 
+                                    <div class="p relative w-[15px] flex items-center justify-center flex-col">
+                                        <div class=" absolute h-[18px] w-[24px] flex items-center justify-center">
+                                            <svg width="25" fill="#fff" height="34" viewBox="0 0 25 34" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                        d="M0 2 C6 10, 19 10, 25 2"
+                                                        stroke="#fff"
+                                                        stroke-width="0"
+                                                        fill="none"
+                                                        stroke-linecap="round"
+                                                />
 
-                                </span>
+                                                <path
+                                                        d="M0 32 C6 24, 19 24, 25 32"
+                                                        stroke="#fff"
+                                                        stroke-width="0"
+                                                        fill="none"
+                                                        stroke-linecap="round"
+                                                />
+
+                                                <path
+                                                        d="M0 2 C6 10, 19 10, 25 2 L25 32 C19 24, 6 24, 0 32 Z"
+                                                        fill="#fff"
+                                                        stroke="none"
+                                                />
+
+                                            </svg>
+                                        </div>
+                                    </div>
+
+                                    <div class="w-[48px] h-[48px] rounded-[50%] flex items-center justify-center bg-white">
+                                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.49978 11.8081L11.8081 6.49978M11.8081 6.49978L6.49978 1.19141M11.8081 6.49978L1.19141 6.49978" stroke="#18181B" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </div>
                                 </a>
+
 
                             </div>
                         </div>
@@ -594,34 +657,57 @@
                         <div class="img w-full h-full absolute top-0 left-0 z-0">
                             <img class="w-full ease h-full relative right-0 top-0 z-1" src="../assets/images/img-2.png"
                                  alt="">
-                            <div class="back-img w-full h-full absolute right-0 bottom-0 z-5">
-
-                            </div>
+                            <div class="back-img w-full h-full absolute right-0 bottom-0 z-5"></div>
                         </div>
                         <div class="detail pb-[18px] relative z-10 px-[16px] w-full flex flex-col items-start">
                             <h3 class="danaBold text-white text-[20px]">istanbul</h3>
                             <span class="danaRegular text-white text-[12px]">Lorem ipsum dolor sit amet, consectetur </span>
                             <div class="w-full relative flex items-center mt-3">
-                                <a href="" class="w-full justify-center relative mt-3">
-                                    <svg width="100%" height="48" viewBox="0 0 279 48" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M199 0C205.634 1.22528e-06 211.639 2.69138 215.983 7.04199L216 7C219.277 9.45752 223.262 19.6788 233.909 12.5361C237.977 5.06776 245.897 0 255 0C268.255 0 279 10.7452 279 24C279 37.2548 268.255 48 255 48C245.897 48 237.977 42.9317 233.909 35.4629C223.262 28.3208 219.277 38.5425 216 41L215.983 40.957C211.639 45.3079 205.634 48 199 48H24C10.7452 48 0 37.2548 0 24C0 10.7452 10.7452 0 24 0H199Z"
-                                              fill="white"/>
-                                    </svg>
-                                    <h5 class="text-[16px] top-[13px] right-[47%] absolute  text-zinc-900">204 Tour</h5>
-                                    <span class=" top-[16px] right-[5.5%] absolute">
-<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M6.49978 11.8081L11.8081 6.49978M11.8081 6.49978L6.49978 1.19141M11.8081 6.49978L1.19141 6.49978"
-      stroke="#18181B" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+                                <a href="" class="btn-s h-[50px] w-full flex items-center justify-between mt-4">
+                                    <h5 class="title-btn h-[48px] rounded-[50px] flex items-center justify-center w-[80%] bg-white text-zinc-900">204 Tour</h5>
 
+                                    <div class="p relative w-[15px] flex items-center justify-center flex-col">
+                                        <div class=" absolute h-[18px] w-[24px] flex items-center justify-center">
+                                            <svg width="25" fill="#fff" height="34" viewBox="0 0 25 34" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                        d="M0 2 C6 10, 19 10, 25 2"
+                                                        stroke="#fff"
+                                                        stroke-width="0"
+                                                        fill="none"
+                                                        stroke-linecap="round"
+                                                />
 
-                                </span>
+                                                <path
+                                                        d="M0 32 C6 24, 19 24, 25 32"
+                                                        stroke="#fff"
+                                                        stroke-width="0"
+                                                        fill="none"
+                                                        stroke-linecap="round"
+                                                />
+
+                                                <path
+                                                        d="M0 2 C6 10, 19 10, 25 2 L25 32 C19 24, 6 24, 0 32 Z"
+                                                        fill="#fff"
+                                                        stroke="none"
+                                                />
+
+                                            </svg>
+                                        </div>
+                                    </div>
+
+                                    <div class="w-[48px] h-[48px] rounded-[50%] flex items-center justify-center bg-white">
+                                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.49978 11.8081L11.8081 6.49978M11.8081 6.49978L6.49978 1.19141M11.8081 6.49978L1.19141 6.49978" stroke="#18181B" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </div>
                                 </a>
+
 
                             </div>
                         </div>
                     </div>
+
+
                 </div>
                 <div class="row-view-more w-full flex items-center justify-between my-12">
                     <img class="w-[88%] h-full" src="../assets/images/line-view-more.png" draggable="false" alt="">
@@ -638,11 +724,11 @@
             </div>
         </div>
     </section>
-    <section class="mt-12">
+    <section class="mt-10">
         <div class="c-container">
             <div class="p-tour w-full flex flex-col items-center">
                 <div class="w-full flex flex-col items-center title">
-                    <h2 class="danaBold text-[36px] text-zinc-900">Most Popular Tours</h2>
+                    <h2 class="danaBold text-[36px] text-zinc-900 title-animate">Most Popular Tours</h2>
                     <h6 class="text-zinc-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt </h6>
                     <div class="tabs w-full flex items-center justify-center gap-3 mt-7">
@@ -1632,11 +1718,11 @@
             </div>
         </div>
     </section>
-    <section class="mt-12">
+    <section class="mt-10">
         <div class="c-container">
             <div class="p-tour w-full flex flex-col items-center">
                 <div class="w-full flex flex-col items-center title">
-                    <h2 class="danaBold text-[36px] text-zinc-900">Most Popular Tours</h2>
+                    <h2 class="danaBold text-[36px] text-zinc-900 title-animate">Most Popular Tours</h2>
                     <h6 class="text-zinc-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt </h6>
                     <div class="tabs w-full flex items-center justify-center gap-3 mt-7">
@@ -1708,26 +1794,40 @@
                                         <span class="text-zinc-500 text-[12px]">12 min</span>
                                     </div>
                                 </div>
-                                <a href="" class="w-full justify-center relative mt-3">
-                                    <svg width="100%" height="48" viewBox="0 0 277 48" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <mask id="path-1-inside-1_23_2170" fill="white">
-                                            <path d="M197.401 0C204.054 0 210.074 2.70696 214.421 7.0791L214.452 7C217.705 9.45789 221.662 19.6783 232.232 12.5361C236.271 5.06781 244.134 8.55697e-05 253.172 0C266.332 0 277 10.7452 277 24C277 37.2548 266.332 48 253.172 48C244.134 47.9999 236.271 42.9316 232.232 35.4629C221.662 28.3213 217.705 38.5421 214.452 41L214.421 40.9199C210.074 45.2923 204.054 48 197.401 48H24C10.7452 48 0 37.2548 0 24C0 10.7452 10.7452 0 24 0H197.401Z"/>
-                                        </mask>
-                                        <path d="M214.421 7.0791L213.712 7.78416L214.789 8.86802L215.351 7.44653L214.421 7.0791ZM214.452 7L215.055 6.20213L214.005 5.40914L213.522 6.63257L214.452 7ZM232.232 12.5361L232.792 13.3647L232.995 13.2275L233.112 13.0118L232.232 12.5361ZM253.172 0V-1H253.172L253.172 0ZM253.172 48L253.172 49H253.172V48ZM232.232 35.4629L233.112 34.9872L232.995 34.7715L232.792 34.6343L232.232 35.4629ZM214.452 41L213.521 41.3635L214.001 42.5943L215.055 41.7979L214.452 41ZM214.421 40.9199L215.352 40.5564L214.794 39.126L213.712 40.2149L214.421 40.9199ZM24 48V49V48ZM197.401 0V1C203.777 1 209.545 3.59305 213.712 7.78416L214.421 7.0791L215.13 6.37404C210.603 1.82088 204.331 -1 197.401 -1V0ZM214.421 7.0791L215.351 7.44653L215.382 7.36743L214.452 7L213.522 6.63257L213.491 6.71167L214.421 7.0791ZM214.452 7L213.849 7.79787C214.544 8.32237 215.299 9.28742 216.348 10.5465C217.345 11.7433 218.543 13.1136 220.011 14.1778C221.496 15.2542 223.286 16.0387 225.456 16.0299C227.617 16.021 230.037 15.2266 232.792 13.3647L232.232 12.5361L231.673 11.7075C229.143 13.4168 227.104 14.0231 225.448 14.0299C223.802 14.0366 222.417 13.4516 221.185 12.5584C219.936 11.653 218.874 10.4538 217.884 9.26611C216.947 8.14078 215.987 6.90658 215.055 6.20213L214.452 7ZM232.232 12.5361L233.112 13.0118C236.984 5.85125 244.518 1.00008 253.172 1L253.172 0L253.172 -1C243.75 -0.999911 235.558 4.28437 231.353 12.0604L232.232 12.5361ZM253.172 0V1C265.773 1 276 11.2907 276 24H277H278C278 10.1997 266.891 -1 253.172 -1V0ZM277 24H276C276 36.7093 265.773 47 253.172 47V48V49C266.891 49 278 37.8003 278 24H277ZM253.172 48L253.172 47C244.518 46.9999 236.984 42.1482 233.112 34.9872L232.232 35.4629L231.353 35.9385C235.558 43.715 243.75 48.9999 253.172 49L253.172 48ZM232.232 35.4629L232.792 34.6343C230.037 32.7726 227.617 31.9783 225.456 31.9696C223.286 31.9608 221.496 32.7455 220.011 33.822C218.543 34.8863 217.345 36.2567 216.348 37.4534C215.299 38.7126 214.544 39.6776 213.849 40.2021L214.452 41L215.055 41.7979C215.987 41.0934 216.947 39.8592 217.884 38.7338C218.874 37.5461 219.936 36.3468 221.185 35.4413C222.417 34.5481 223.802 33.9629 225.448 33.9696C227.104 33.9762 229.143 34.5824 231.673 36.2915L232.232 35.4629ZM214.452 41L215.384 40.6365L215.352 40.5564L214.421 40.9199L213.489 41.2835L213.521 41.3635L214.452 41ZM214.421 40.9199L213.712 40.2149C209.545 44.4063 203.777 47 197.401 47V48V49C204.331 49 210.603 46.1784 215.13 41.625L214.421 40.9199ZM197.401 48V47H24V48V49H197.401V48ZM24 48V47C11.2975 47 1 36.7025 1 24H0H-1C-1 37.8071 10.1929 49 24 49V48ZM0 24H1C1 11.2975 11.2975 1 24 1V0V-1C10.1929 -1 -1 10.1929 -1 24H0ZM24 0V1H197.401V0V-1H24V0Z"
-                                              fill="#5F6F52" mask="url(#path-1-inside-1_23_2170)"/>
-                                    </svg>
-                                    <h5 class="text-[16px] top-[13px] right-[47%] absolute  text-[#5F6F52]">Read
-                                        More</h5>
-                                    <span class=" top-[18px] right-[8%] absolute">
-                                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-<path d="M6.49978 11.8081L11.8081 6.49978M11.8081 6.49978L6.49978 1.19141M11.8081 6.49978L1.19141 6.49978"
-      stroke="#5F6F52" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+                                <a href="" class="btn-s h-[50px] flex items-center justify-between mt-4">
+                                    <h5 class="title-btn h-[48px] rounded-[50px] flex items-center justify-center w-[78.5%] border-1 border-primary-800 text-primary-800">Read More</h5>
 
-                                </span>
+                                    <div class="p relative w-[15px] flex items-center justify-center flex-col">
+                                        <div class="bg-primary-50 absolute h-[25px] w-[24px] flex items-center justify-center">
+                                            <svg width="25" height="34" viewBox="0 0 25 34" xmlns="http://www.w3.org/2000/svg">
+
+                                                <path
+                                                        d="M0 2 C6 10, 19 10, 25 2"
+                                                        stroke="#6F7B68"
+                                                        stroke-width="1"
+                                                        fill="none"
+                                                        stroke-linecap="round"
+                                                />
+
+                                                <path
+                                                        d="M0 32 C6 24, 19 24, 25 32"
+                                                        stroke="#6F7B68"
+                                                        stroke-width="1"
+                                                        fill="none"
+                                                        stroke-linecap="round"
+                                                />
+
+                                            </svg>
+                                        </div>
+                                    </div>
+
+                                    <div class="w-[48px] h-[48px] rounded-[50%] flex items-center justify-center border-1 border-primary-800">
+                                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.49978 11.8081L11.8081 6.49978M11.8081 6.49978L6.49978 1.19141M11.8081 6.49978L1.19141 6.49978" stroke="#5F6F52" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </div>
                                 </a>
+
                             </div>
 
                         </div>
@@ -1778,26 +1878,40 @@
                                         <span class="text-zinc-500 text-[12px]">12 min</span>
                                     </div>
                                 </div>
-                                <a href="" class="w-full justify-center relative mt-3">
-                                    <svg width="100%" height="48" viewBox="0 0 277 48" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <mask id="path-1-inside-1_23_2170" fill="white">
-                                            <path d="M197.401 0C204.054 0 210.074 2.70696 214.421 7.0791L214.452 7C217.705 9.45789 221.662 19.6783 232.232 12.5361C236.271 5.06781 244.134 8.55697e-05 253.172 0C266.332 0 277 10.7452 277 24C277 37.2548 266.332 48 253.172 48C244.134 47.9999 236.271 42.9316 232.232 35.4629C221.662 28.3213 217.705 38.5421 214.452 41L214.421 40.9199C210.074 45.2923 204.054 48 197.401 48H24C10.7452 48 0 37.2548 0 24C0 10.7452 10.7452 0 24 0H197.401Z"/>
-                                        </mask>
-                                        <path d="M214.421 7.0791L213.712 7.78416L214.789 8.86802L215.351 7.44653L214.421 7.0791ZM214.452 7L215.055 6.20213L214.005 5.40914L213.522 6.63257L214.452 7ZM232.232 12.5361L232.792 13.3647L232.995 13.2275L233.112 13.0118L232.232 12.5361ZM253.172 0V-1H253.172L253.172 0ZM253.172 48L253.172 49H253.172V48ZM232.232 35.4629L233.112 34.9872L232.995 34.7715L232.792 34.6343L232.232 35.4629ZM214.452 41L213.521 41.3635L214.001 42.5943L215.055 41.7979L214.452 41ZM214.421 40.9199L215.352 40.5564L214.794 39.126L213.712 40.2149L214.421 40.9199ZM24 48V49V48ZM197.401 0V1C203.777 1 209.545 3.59305 213.712 7.78416L214.421 7.0791L215.13 6.37404C210.603 1.82088 204.331 -1 197.401 -1V0ZM214.421 7.0791L215.351 7.44653L215.382 7.36743L214.452 7L213.522 6.63257L213.491 6.71167L214.421 7.0791ZM214.452 7L213.849 7.79787C214.544 8.32237 215.299 9.28742 216.348 10.5465C217.345 11.7433 218.543 13.1136 220.011 14.1778C221.496 15.2542 223.286 16.0387 225.456 16.0299C227.617 16.021 230.037 15.2266 232.792 13.3647L232.232 12.5361L231.673 11.7075C229.143 13.4168 227.104 14.0231 225.448 14.0299C223.802 14.0366 222.417 13.4516 221.185 12.5584C219.936 11.653 218.874 10.4538 217.884 9.26611C216.947 8.14078 215.987 6.90658 215.055 6.20213L214.452 7ZM232.232 12.5361L233.112 13.0118C236.984 5.85125 244.518 1.00008 253.172 1L253.172 0L253.172 -1C243.75 -0.999911 235.558 4.28437 231.353 12.0604L232.232 12.5361ZM253.172 0V1C265.773 1 276 11.2907 276 24H277H278C278 10.1997 266.891 -1 253.172 -1V0ZM277 24H276C276 36.7093 265.773 47 253.172 47V48V49C266.891 49 278 37.8003 278 24H277ZM253.172 48L253.172 47C244.518 46.9999 236.984 42.1482 233.112 34.9872L232.232 35.4629L231.353 35.9385C235.558 43.715 243.75 48.9999 253.172 49L253.172 48ZM232.232 35.4629L232.792 34.6343C230.037 32.7726 227.617 31.9783 225.456 31.9696C223.286 31.9608 221.496 32.7455 220.011 33.822C218.543 34.8863 217.345 36.2567 216.348 37.4534C215.299 38.7126 214.544 39.6776 213.849 40.2021L214.452 41L215.055 41.7979C215.987 41.0934 216.947 39.8592 217.884 38.7338C218.874 37.5461 219.936 36.3468 221.185 35.4413C222.417 34.5481 223.802 33.9629 225.448 33.9696C227.104 33.9762 229.143 34.5824 231.673 36.2915L232.232 35.4629ZM214.452 41L215.384 40.6365L215.352 40.5564L214.421 40.9199L213.489 41.2835L213.521 41.3635L214.452 41ZM214.421 40.9199L213.712 40.2149C209.545 44.4063 203.777 47 197.401 47V48V49C204.331 49 210.603 46.1784 215.13 41.625L214.421 40.9199ZM197.401 48V47H24V48V49H197.401V48ZM24 48V47C11.2975 47 1 36.7025 1 24H0H-1C-1 37.8071 10.1929 49 24 49V48ZM0 24H1C1 11.2975 11.2975 1 24 1V0V-1C10.1929 -1 -1 10.1929 -1 24H0ZM24 0V1H197.401V0V-1H24V0Z"
-                                              fill="#5F6F52" mask="url(#path-1-inside-1_23_2170)"/>
-                                    </svg>
-                                    <h5 class="text-[16px] top-[13px] right-[47%] absolute  text-[#5F6F52]">Read
-                                        More</h5>
-                                    <span class=" top-[18px] right-[8%] absolute">
-                                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-<path d="M6.49978 11.8081L11.8081 6.49978M11.8081 6.49978L6.49978 1.19141M11.8081 6.49978L1.19141 6.49978"
-      stroke="#5F6F52" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+                                <a href="" class="btn-s h-[50px] flex items-center justify-between mt-4">
+                                    <h5 class="title-btn h-[48px] rounded-[50px] flex items-center justify-center w-[78.5%] border-1 border-primary-800 text-primary-800">Read More</h5>
 
-                                </span>
+                                    <div class="p relative w-[15px] flex items-center justify-center flex-col">
+                                        <div class="bg-primary-50 absolute h-[25px] w-[24px] flex items-center justify-center">
+                                            <svg width="25" height="34" viewBox="0 0 25 34" xmlns="http://www.w3.org/2000/svg">
+
+                                                <path
+                                                        d="M0 2 C6 10, 19 10, 25 2"
+                                                        stroke="#6F7B68"
+                                                        stroke-width="1"
+                                                        fill="none"
+                                                        stroke-linecap="round"
+                                                />
+
+                                                <path
+                                                        d="M0 32 C6 24, 19 24, 25 32"
+                                                        stroke="#6F7B68"
+                                                        stroke-width="1"
+                                                        fill="none"
+                                                        stroke-linecap="round"
+                                                />
+
+                                            </svg>
+                                        </div>
+                                    </div>
+
+                                    <div class="w-[48px] h-[48px] rounded-[50%] flex items-center justify-center border-1 border-primary-800">
+                                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.49978 11.8081L11.8081 6.49978M11.8081 6.49978L6.49978 1.19141M11.8081 6.49978L1.19141 6.49978" stroke="#5F6F52" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </div>
                                 </a>
+
                             </div>
 
                         </div>
@@ -1848,26 +1962,40 @@
                                         <span class="text-zinc-500 text-[12px]">12 min</span>
                                     </div>
                                 </div>
-                                <a href="" class="w-full justify-center relative mt-3">
-                                    <svg width="100%" height="48" viewBox="0 0 277 48" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <mask id="path-1-inside-1_23_2170" fill="white">
-                                            <path d="M197.401 0C204.054 0 210.074 2.70696 214.421 7.0791L214.452 7C217.705 9.45789 221.662 19.6783 232.232 12.5361C236.271 5.06781 244.134 8.55697e-05 253.172 0C266.332 0 277 10.7452 277 24C277 37.2548 266.332 48 253.172 48C244.134 47.9999 236.271 42.9316 232.232 35.4629C221.662 28.3213 217.705 38.5421 214.452 41L214.421 40.9199C210.074 45.2923 204.054 48 197.401 48H24C10.7452 48 0 37.2548 0 24C0 10.7452 10.7452 0 24 0H197.401Z"/>
-                                        </mask>
-                                        <path d="M214.421 7.0791L213.712 7.78416L214.789 8.86802L215.351 7.44653L214.421 7.0791ZM214.452 7L215.055 6.20213L214.005 5.40914L213.522 6.63257L214.452 7ZM232.232 12.5361L232.792 13.3647L232.995 13.2275L233.112 13.0118L232.232 12.5361ZM253.172 0V-1H253.172L253.172 0ZM253.172 48L253.172 49H253.172V48ZM232.232 35.4629L233.112 34.9872L232.995 34.7715L232.792 34.6343L232.232 35.4629ZM214.452 41L213.521 41.3635L214.001 42.5943L215.055 41.7979L214.452 41ZM214.421 40.9199L215.352 40.5564L214.794 39.126L213.712 40.2149L214.421 40.9199ZM24 48V49V48ZM197.401 0V1C203.777 1 209.545 3.59305 213.712 7.78416L214.421 7.0791L215.13 6.37404C210.603 1.82088 204.331 -1 197.401 -1V0ZM214.421 7.0791L215.351 7.44653L215.382 7.36743L214.452 7L213.522 6.63257L213.491 6.71167L214.421 7.0791ZM214.452 7L213.849 7.79787C214.544 8.32237 215.299 9.28742 216.348 10.5465C217.345 11.7433 218.543 13.1136 220.011 14.1778C221.496 15.2542 223.286 16.0387 225.456 16.0299C227.617 16.021 230.037 15.2266 232.792 13.3647L232.232 12.5361L231.673 11.7075C229.143 13.4168 227.104 14.0231 225.448 14.0299C223.802 14.0366 222.417 13.4516 221.185 12.5584C219.936 11.653 218.874 10.4538 217.884 9.26611C216.947 8.14078 215.987 6.90658 215.055 6.20213L214.452 7ZM232.232 12.5361L233.112 13.0118C236.984 5.85125 244.518 1.00008 253.172 1L253.172 0L253.172 -1C243.75 -0.999911 235.558 4.28437 231.353 12.0604L232.232 12.5361ZM253.172 0V1C265.773 1 276 11.2907 276 24H277H278C278 10.1997 266.891 -1 253.172 -1V0ZM277 24H276C276 36.7093 265.773 47 253.172 47V48V49C266.891 49 278 37.8003 278 24H277ZM253.172 48L253.172 47C244.518 46.9999 236.984 42.1482 233.112 34.9872L232.232 35.4629L231.353 35.9385C235.558 43.715 243.75 48.9999 253.172 49L253.172 48ZM232.232 35.4629L232.792 34.6343C230.037 32.7726 227.617 31.9783 225.456 31.9696C223.286 31.9608 221.496 32.7455 220.011 33.822C218.543 34.8863 217.345 36.2567 216.348 37.4534C215.299 38.7126 214.544 39.6776 213.849 40.2021L214.452 41L215.055 41.7979C215.987 41.0934 216.947 39.8592 217.884 38.7338C218.874 37.5461 219.936 36.3468 221.185 35.4413C222.417 34.5481 223.802 33.9629 225.448 33.9696C227.104 33.9762 229.143 34.5824 231.673 36.2915L232.232 35.4629ZM214.452 41L215.384 40.6365L215.352 40.5564L214.421 40.9199L213.489 41.2835L213.521 41.3635L214.452 41ZM214.421 40.9199L213.712 40.2149C209.545 44.4063 203.777 47 197.401 47V48V49C204.331 49 210.603 46.1784 215.13 41.625L214.421 40.9199ZM197.401 48V47H24V48V49H197.401V48ZM24 48V47C11.2975 47 1 36.7025 1 24H0H-1C-1 37.8071 10.1929 49 24 49V48ZM0 24H1C1 11.2975 11.2975 1 24 1V0V-1C10.1929 -1 -1 10.1929 -1 24H0ZM24 0V1H197.401V0V-1H24V0Z"
-                                              fill="#5F6F52" mask="url(#path-1-inside-1_23_2170)"/>
-                                    </svg>
-                                    <h5 class="text-[16px] top-[13px] right-[47%] absolute  text-[#5F6F52]">Read
-                                        More</h5>
-                                    <span class=" top-[18px] right-[8%] absolute">
-                                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-<path d="M6.49978 11.8081L11.8081 6.49978M11.8081 6.49978L6.49978 1.19141M11.8081 6.49978L1.19141 6.49978"
-      stroke="#5F6F52" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+                                <a href="" class="btn-s h-[50px] flex items-center justify-between mt-4">
+                                    <h5 class="title-btn h-[48px] rounded-[50px] flex items-center justify-center w-[78.5%] border-1 border-primary-800 text-primary-800">Read More</h5>
 
-                                </span>
+                                    <div class="p relative w-[15px] flex items-center justify-center flex-col">
+                                        <div class="bg-primary-50 absolute h-[25px] w-[24px] flex items-center justify-center">
+                                            <svg width="25" height="34" viewBox="0 0 25 34" xmlns="http://www.w3.org/2000/svg">
+
+                                                <path
+                                                        d="M0 2 C6 10, 19 10, 25 2"
+                                                        stroke="#6F7B68"
+                                                        stroke-width="1"
+                                                        fill="none"
+                                                        stroke-linecap="round"
+                                                />
+
+                                                <path
+                                                        d="M0 32 C6 24, 19 24, 25 32"
+                                                        stroke="#6F7B68"
+                                                        stroke-width="1"
+                                                        fill="none"
+                                                        stroke-linecap="round"
+                                                />
+
+                                            </svg>
+                                        </div>
+                                    </div>
+
+                                    <div class="w-[48px] h-[48px] rounded-[50%] flex items-center justify-center border-1 border-primary-800">
+                                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.49978 11.8081L11.8081 6.49978M11.8081 6.49978L6.49978 1.19141M11.8081 6.49978L1.19141 6.49978" stroke="#5F6F52" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </div>
                                 </a>
+
                             </div>
 
                         </div>
@@ -1918,26 +2046,40 @@
                                         <span class="text-zinc-500 text-[12px]">12 min</span>
                                     </div>
                                 </div>
-                                <a href="" class="w-full justify-center relative mt-3">
-                                    <svg width="100%" height="48" viewBox="0 0 277 48" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <mask id="path-1-inside-1_23_2170" fill="white">
-                                            <path d="M197.401 0C204.054 0 210.074 2.70696 214.421 7.0791L214.452 7C217.705 9.45789 221.662 19.6783 232.232 12.5361C236.271 5.06781 244.134 8.55697e-05 253.172 0C266.332 0 277 10.7452 277 24C277 37.2548 266.332 48 253.172 48C244.134 47.9999 236.271 42.9316 232.232 35.4629C221.662 28.3213 217.705 38.5421 214.452 41L214.421 40.9199C210.074 45.2923 204.054 48 197.401 48H24C10.7452 48 0 37.2548 0 24C0 10.7452 10.7452 0 24 0H197.401Z"/>
-                                        </mask>
-                                        <path d="M214.421 7.0791L213.712 7.78416L214.789 8.86802L215.351 7.44653L214.421 7.0791ZM214.452 7L215.055 6.20213L214.005 5.40914L213.522 6.63257L214.452 7ZM232.232 12.5361L232.792 13.3647L232.995 13.2275L233.112 13.0118L232.232 12.5361ZM253.172 0V-1H253.172L253.172 0ZM253.172 48L253.172 49H253.172V48ZM232.232 35.4629L233.112 34.9872L232.995 34.7715L232.792 34.6343L232.232 35.4629ZM214.452 41L213.521 41.3635L214.001 42.5943L215.055 41.7979L214.452 41ZM214.421 40.9199L215.352 40.5564L214.794 39.126L213.712 40.2149L214.421 40.9199ZM24 48V49V48ZM197.401 0V1C203.777 1 209.545 3.59305 213.712 7.78416L214.421 7.0791L215.13 6.37404C210.603 1.82088 204.331 -1 197.401 -1V0ZM214.421 7.0791L215.351 7.44653L215.382 7.36743L214.452 7L213.522 6.63257L213.491 6.71167L214.421 7.0791ZM214.452 7L213.849 7.79787C214.544 8.32237 215.299 9.28742 216.348 10.5465C217.345 11.7433 218.543 13.1136 220.011 14.1778C221.496 15.2542 223.286 16.0387 225.456 16.0299C227.617 16.021 230.037 15.2266 232.792 13.3647L232.232 12.5361L231.673 11.7075C229.143 13.4168 227.104 14.0231 225.448 14.0299C223.802 14.0366 222.417 13.4516 221.185 12.5584C219.936 11.653 218.874 10.4538 217.884 9.26611C216.947 8.14078 215.987 6.90658 215.055 6.20213L214.452 7ZM232.232 12.5361L233.112 13.0118C236.984 5.85125 244.518 1.00008 253.172 1L253.172 0L253.172 -1C243.75 -0.999911 235.558 4.28437 231.353 12.0604L232.232 12.5361ZM253.172 0V1C265.773 1 276 11.2907 276 24H277H278C278 10.1997 266.891 -1 253.172 -1V0ZM277 24H276C276 36.7093 265.773 47 253.172 47V48V49C266.891 49 278 37.8003 278 24H277ZM253.172 48L253.172 47C244.518 46.9999 236.984 42.1482 233.112 34.9872L232.232 35.4629L231.353 35.9385C235.558 43.715 243.75 48.9999 253.172 49L253.172 48ZM232.232 35.4629L232.792 34.6343C230.037 32.7726 227.617 31.9783 225.456 31.9696C223.286 31.9608 221.496 32.7455 220.011 33.822C218.543 34.8863 217.345 36.2567 216.348 37.4534C215.299 38.7126 214.544 39.6776 213.849 40.2021L214.452 41L215.055 41.7979C215.987 41.0934 216.947 39.8592 217.884 38.7338C218.874 37.5461 219.936 36.3468 221.185 35.4413C222.417 34.5481 223.802 33.9629 225.448 33.9696C227.104 33.9762 229.143 34.5824 231.673 36.2915L232.232 35.4629ZM214.452 41L215.384 40.6365L215.352 40.5564L214.421 40.9199L213.489 41.2835L213.521 41.3635L214.452 41ZM214.421 40.9199L213.712 40.2149C209.545 44.4063 203.777 47 197.401 47V48V49C204.331 49 210.603 46.1784 215.13 41.625L214.421 40.9199ZM197.401 48V47H24V48V49H197.401V48ZM24 48V47C11.2975 47 1 36.7025 1 24H0H-1C-1 37.8071 10.1929 49 24 49V48ZM0 24H1C1 11.2975 11.2975 1 24 1V0V-1C10.1929 -1 -1 10.1929 -1 24H0ZM24 0V1H197.401V0V-1H24V0Z"
-                                              fill="#5F6F52" mask="url(#path-1-inside-1_23_2170)"/>
-                                    </svg>
-                                    <h5 class="text-[16px] top-[13px] right-[47%] absolute  text-[#5F6F52]">Read
-                                        More</h5>
-                                    <span class=" top-[18px] right-[8%] absolute">
-                                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-<path d="M6.49978 11.8081L11.8081 6.49978M11.8081 6.49978L6.49978 1.19141M11.8081 6.49978L1.19141 6.49978"
-      stroke="#5F6F52" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+                                <a href="" class="btn-s h-[50px] flex items-center justify-between mt-4">
+                                    <h5 class="title-btn h-[48px] rounded-[50px] flex items-center justify-center w-[78.5%] border-1 border-primary-800 text-primary-800">Read More</h5>
 
-                                </span>
+                                    <div class="p relative w-[15px] flex items-center justify-center flex-col">
+                                        <div class="bg-primary-50 absolute h-[25px] w-[24px] flex items-center justify-center">
+                                            <svg width="25" height="34" viewBox="0 0 25 34" xmlns="http://www.w3.org/2000/svg">
+
+                                                <path
+                                                        d="M0 2 C6 10, 19 10, 25 2"
+                                                        stroke="#6F7B68"
+                                                        stroke-width="1"
+                                                        fill="none"
+                                                        stroke-linecap="round"
+                                                />
+
+                                                <path
+                                                        d="M0 32 C6 24, 19 24, 25 32"
+                                                        stroke="#6F7B68"
+                                                        stroke-width="1"
+                                                        fill="none"
+                                                        stroke-linecap="round"
+                                                />
+
+                                            </svg>
+                                        </div>
+                                    </div>
+
+                                    <div class="w-[48px] h-[48px] rounded-[50%] flex items-center justify-center border-1 border-primary-800">
+                                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.49978 11.8081L11.8081 6.49978M11.8081 6.49978L6.49978 1.19141M11.8081 6.49978L1.19141 6.49978" stroke="#5F6F52" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </div>
                                 </a>
+
                             </div>
 
                         </div>
@@ -1968,7 +2110,7 @@
             </div>
         </div>
     </section>
-    <section class="mt-10">
+    <section class="mt-7">
         <div class="c-container">
             <div class="p-service rounded-[12px]  w-full  relative h-[285px] overflow-hidden">
                 <img class="w-full h-full object-cover  ease relative z-0" src="../assets/images/service.png" alt="">
@@ -1978,7 +2120,6 @@
             </div>
         </div>
     </section>
-
 </main>
 
 <!--footer-->

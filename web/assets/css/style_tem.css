@@ -1,3 +1,4 @@
+@import "web/assets/css/input.css";
 /*<!--------------------------init CSS------------------------------->*/
 @font-face {
     font-family: "DanaMedium";
@@ -88,10 +89,14 @@ a, button {
     font-family: "DanaRegular";
     position: relative;
     overflow: hidden;
+    transition: 0.6s ease;
 }
 
+.btn-bw:hover {
+    border: 1px solid var(--special-color);
+    color: var(--special-color);
 
-
+}
 
 .bg-color-1 {
     background: var(--color-1);
@@ -104,9 +109,11 @@ a, button {
 input, a, button {
     outline: none;
 }
-a,button{
+
+a, button {
     cursor: pointer;
 }
+
 /*<!--------------------------init CSS------------------------------->*/
 
 
@@ -154,9 +161,10 @@ img {
 }
 
 .back-img {
-    backdrop-filter: blur(1px);
-    background: linear-gradient(180deg, rgba(89, 31, 0, 0) 44.2%, #381500 100%);
-    opacity: 0.5;
+    mask: linear-gradient(black, black, transparent);
+    backdrop-filter: blur(8px);
+    opacity: 0.8;
+    rotate: 180deg;
 }
 
 .p-service {
@@ -253,10 +261,10 @@ img {
 }
 
 
-
 .menu-header ul li {
     position: relative;
-::after{
+
+::after {
     content: '';
     transition: 0.5s ease;
     position: absolute;
@@ -265,77 +273,122 @@ img {
     width: 0;
     border-bottom: 3px solid #b1cc81;
 }
-}
-
-
-.footer-links a::after{
-     content: '';
-     transition: 0.5s ease;
-     position: absolute;
-     left: 0;
-     top: 44px;
-     width: 0;
-     border-bottom: 3px solid #b1cc81;
 
 }
-.footer-links a:hover::after{
+
+
+.footer-links a::after {
+    content: '';
+    transition: 0.5s ease;
+    position: absolute;
+    left: 0;
+    top: 44px;
+    width: 0;
+    border-bottom: 3px solid #b1cc81;
+
+}
+
+.footer-links a:hover::after {
     width: 100%;
 
 }
-.menu-header ul li:hover{
-::after{
+
+.menu-header ul li:hover {
+
+::after {
 
     width: 100%;
 }
+
 }
-.ease{
+.ease {
     transition: 0.6s ease;
 }
 
-.col-video{
+.col-video {
     transition: 0.7s ease;
-.t-bg , .b-bg{
+
+.t-bg, .b-bg {
     transition: 0.7s ease;
 }
 
 }
 
-.col-video:hover{
-   .t-bg{
-       left: 35px;
-       top: 2px;
-   }
-   .b-bg{
-       bottom: 12px;
-       right: 83px;
-   }
+.col-video:hover {
+
+.t-bg {
+    left: 35px;
+    top: 2px;
 }
 
-.p-service:hover img{
- scale: 1.3;
+.b-bg {
+    bottom: 12px;
+    right: 83px;
 }
-.cart-s:hover img{
+
+}
+
+.p-service:hover img {
+    scale: 1.3;
+}
+
+.cart-s:hover img {
     scale: 1.1;
 }
-.card-hotel .btn-more svg{
+
+.card-hotel .btn-more svg {
     transition: 0.6s ease;
 }
 
-.card-hotel:hover .btn-more svg{
+.card-hotel:hover .btn-more svg {
     transition: 0.6s ease;
     rotate: 45deg;
 }
 
 /*style-tab*/
-.btn-tab.active , .btn-tab-hotel.active , .btn-tab-blog.active{
+.btn-tab.active, .btn-tab-hotel.active, .btn-tab-blog.active {
     background-color: #18181B;
     color: white;
 }
 
-.tab-content , .tab-content-hotel , .tab-content-blog{
+.tab-content, .tab-content-hotel, .tab-content-blog {
     display: none;
 }
 
-.tab-content.active , .tab-content-hotel.active , .tab-content-blog.active{
+.tab-content.active, .tab-content-hotel.active, .tab-content-blog.active {
     display: block;
+}
+
+
+.title-animate {
+    position: relative;
+}
+
+.title-animate:hover::after {
+    width: 100%;
+}
+
+.title-animate:after {
+    content: '';
+    transition: 0.5s ease;
+    position: absolute;
+    left: 0;
+    top: 47px;
+    width: 0;
+    border-bottom: 3px solid #b1cc81;
+}
+
+/*card-services*/
+.card-services:hover img {
+    bottom: -140px;
+}
+
+.item-user:hover .img img {
+    scale: 1.3;
+    rotate: -2deg;
+    transform: translateY(20px);
+}
+
+.item-faq:hover h3 {
+    color: #71717a;
 }
