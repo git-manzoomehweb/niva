@@ -339,3 +339,32 @@ img {
 .tab-content.active , .tab-content-hotel.active , .tab-content-blog.active{
     display: block;
 }
+
+
+.title-animate{
+    position: relative;
+}
+.title-animate:hover::after{
+    width: 100%;
+}
+.title-animate:after{
+    content: '';
+    transition: 0.5s ease;
+    position: absolute;
+    left: 0;
+    top: 47px;
+    width: 0;
+    border-bottom: 3px solid #b1cc81;
+}
+
+/*card-services*/
+.card-services:hover img{
+ bottom: -140px;
+}
+
+.item-user:hover .img img{
+    scale: 1.3;
+    rotate: -2deg;
+    transform: translateY(20px);
+}
+
