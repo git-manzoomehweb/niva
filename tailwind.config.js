@@ -6,11 +6,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        fontFamily: {
-          dana: ["DanaMedium", "sans-serif"], // نکته: حتما آرایه باشه
-        },
         primary: {
-          DEFAULT: "var(--text-primary)",
+          DEFAULT: "var(--primary)",
           50: "var(--primary-50)",
           100: "var(--primary-100)",
           200: "var(--primary-200)",
@@ -33,3 +30,6 @@ module.exports = {
   plugins: [],
 }
 
+// export default {
+//   presets:[require('tailwindcss/preset-tailwind-v3')]
+// }

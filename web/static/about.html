@@ -21,12 +21,12 @@
                 </a>
                 <div class="menu-header">
                     <ul class="flex items-center gap-[3rem]">
-                        <li class="text-white danaBold text-[16px]"><a href="">Home</a></li>
-                        <li class="text-white danaBold text-[16px]"><a href="">Flight</a></li>
-                        <li class="text-white danaBold text-[16px]"><a href="">Hotel</a></li>
-                        <li class="text-white danaBold text-[16px]"><a href="">tour</a></li>
-                        <li class="text-white danaBold text-[16px]"><a href="">News</a></li>
-                        <li class="text-white danaBold text-[16px]"><a href="">About Us</a></li>
+                        <li class="text-white danaBold text-base"><a href="">Home</a></li>
+                        <li class="text-white danaBold text-base"><a href="">Flight</a></li>
+                        <li class="text-white danaBold text-base"><a href="">Hotel</a></li>
+                        <li class="text-white danaBold text-base"><a href="">tour</a></li>
+                        <li class="text-white danaBold text-base"><a href="">News</a></li>
+                        <li class="text-white danaBold text-base"><a href="">About Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,17 +45,17 @@
 
 
 <!--main-->
-<main style="padding: 16px">
+<main class="p-4">
     <section class="w-full s-main-about">
         <div class="c-container">
             <div class="p-main-about z-[99] relative flex flex-col items-center justify-center h-[680px]">
-                <h3 class="text-white danaBold title-animate text-[36px]">About Us</h3>
-                <div class="flex items-center my-1  gap-1">
-                    <span class="text-white danaRegular text-[14px]">Home</span>
-                    <span class="text-white danaRegular text-[14px]">></span>
-                    <span class="text-white danaRegular text-[14px]">about</span>
+                <h3 class="text-white danaBold title-animate text-4xl">About Us</h3>
+                <div class="flex items-center mb-1 mt-2  gap-1">
+                    <a href="" class="text-white danaRegular text-sm">Home</a>
+                    <span class="text-white danaRegular text-sm">></span>
+                    <span class="text-white danaRegular text-sm">about</span>
                 </div>
-                <h5 class="text-white danaRegular text-[16px] text-center mt-5">
+                <h5 class="text-white danaRegular text-base text-center mt-5">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris
                     rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis.
@@ -71,33 +71,16 @@
                     Sapien faucibus et molestie acm
                 </h5>
                 <div class="services relative w-full mt-8 flex flex-col items-center justify-center">
-                    <h3 class="text-white danaBold text-[36px] title-animate">services</h3>
+                    <h3 class="text-white danaBold text-4xl title-animate">services</h3>
                     <div class="grid mt-10 w-full absolute top-10 grid-cols-4 gap-4 mt-4">
                         <div class="item w-full card-services flex flex-col relative items-center">
                             <div class="box relative z-10 w-full rounded-3xl p-[24px] bg-primary-50 h-[286px] flex flex-col items-center justify-center">
-                                <svg width="71" height="71" viewBox="0 0 71 71" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M69.067 49.0163C66.9075 42.2535 61.1831 38.384 53.3287 38.384H53.2725C50.0716 38.3544 47.2109 38.9994 44.7969 40.233C51.533 42.3955 56.5267 47.1939 58.8253 53.9833C62.4729 53.4774 65.6442 52.3562 68.4487 50.6434L69.3747 50.0547L69.067 49.0163Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M48.1953 33.2777C49.71 34.1208 51.4229 34.5971 53.2748 34.5971C59.082 34.5971 63.7946 29.8815 63.7946 24.0743C63.7946 18.2966 59.082 13.5811 53.2748 13.5811C52.124 13.5811 51.0294 13.7793 49.991 14.1136C51.5057 16.5571 52.3754 19.4445 52.3754 22.5034C52.3754 26.6569 50.8312 30.417 48.1953 33.2777Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M27.5404 40.1785C25.1826 39.0011 22.4047 38.3828 19.2629 38.3828H19.1505C11.2961 38.3828 5.57177 42.2553 3.43881 49.0151L3.10156 50.0534L4.02752 50.6421C6.69298 52.2722 9.83769 53.3638 13.3433 53.9259C15.6715 47.1099 20.751 42.2819 27.5404 40.1785Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M19.2103 34.5942C21.0622 34.5942 22.7721 34.1179 24.2897 33.2748C21.6509 30.4141 20.1067 26.654 20.1067 22.5005C20.1067 19.4445 20.9764 16.5542 22.494 14.1136C21.4557 13.7763 20.3611 13.5781 19.2103 13.5781C13.4031 13.5781 8.6875 18.2937 8.6875 24.0713C8.6875 29.8816 13.4031 34.5942 19.2103 34.5942Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M36.1386 41.7227C36.0913 41.7227 36.0469 41.7227 36.0025 41.7227C25.9028 41.7227 18.5395 46.6867 15.8001 55.3517L15.4688 56.3989L16.4065 56.9729C21.7552 60.2329 28.1452 61.8186 35.9404 61.8186H36.1919C43.993 61.8186 50.386 60.2329 55.7346 56.9729L56.6754 56.3989L56.344 55.3517C53.6017 46.6867 46.2413 41.7227 36.1386 41.7227Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M36.2424 35.8508C43.5969 35.8508 49.5786 29.8691 49.5786 22.5146C49.5786 15.1631 43.5969 9.1814 36.2424 9.1814C28.888 9.1814 22.9062 15.1631 22.9062 22.5146C22.9062 29.8691 28.888 35.8508 36.2424 35.8508Z"
-                                          fill="#5F6F52"/>
+                                <svg width="71" height="71">
+                                    <use href="../assets/images/sprite-icons.svg#icon-users"></use>
                                 </svg>
-                                <h5 class="text-primary-800 danaBold text-[16px] mt-6">Corporate Flight Management</h5>
-                                <h6 class="danaRegular text-zinc-900 text-[14px] text-center mt-2">
+
+                                <h5 class="text-primary-800 danaBold text-base mt-6">Corporate Flight Management</h5>
+                                <h6 class="danaRegular text-zinc-900 text-sm text-center mt-2">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut
                                 </h6>
@@ -107,29 +90,12 @@
                         </div>
                         <div class="item w-full card-services flex flex-col relative items-center">
                             <div class="box relative z-10 w-full rounded-3xl p-[24px] bg-primary-50 h-[286px] flex flex-col items-center justify-center">
-                                <svg width="71" height="71" viewBox="0 0 71 71" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M69.067 49.0163C66.9075 42.2535 61.1831 38.384 53.3287 38.384H53.2725C50.0716 38.3544 47.2109 38.9994 44.7969 40.233C51.533 42.3955 56.5267 47.1939 58.8253 53.9833C62.4729 53.4774 65.6442 52.3562 68.4487 50.6434L69.3747 50.0547L69.067 49.0163Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M48.1953 33.2777C49.71 34.1208 51.4229 34.5971 53.2748 34.5971C59.082 34.5971 63.7946 29.8815 63.7946 24.0743C63.7946 18.2966 59.082 13.5811 53.2748 13.5811C52.124 13.5811 51.0294 13.7793 49.991 14.1136C51.5057 16.5571 52.3754 19.4445 52.3754 22.5034C52.3754 26.6569 50.8312 30.417 48.1953 33.2777Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M27.5404 40.1785C25.1826 39.0011 22.4047 38.3828 19.2629 38.3828H19.1505C11.2961 38.3828 5.57177 42.2553 3.43881 49.0151L3.10156 50.0534L4.02752 50.6421C6.69298 52.2722 9.83769 53.3638 13.3433 53.9259C15.6715 47.1099 20.751 42.2819 27.5404 40.1785Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M19.2103 34.5942C21.0622 34.5942 22.7721 34.1179 24.2897 33.2748C21.6509 30.4141 20.1067 26.654 20.1067 22.5005C20.1067 19.4445 20.9764 16.5542 22.494 14.1136C21.4557 13.7763 20.3611 13.5781 19.2103 13.5781C13.4031 13.5781 8.6875 18.2937 8.6875 24.0713C8.6875 29.8816 13.4031 34.5942 19.2103 34.5942Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M36.1386 41.7227C36.0913 41.7227 36.0469 41.7227 36.0025 41.7227C25.9028 41.7227 18.5395 46.6867 15.8001 55.3517L15.4688 56.3989L16.4065 56.9729C21.7552 60.2329 28.1452 61.8186 35.9404 61.8186H36.1919C43.993 61.8186 50.386 60.2329 55.7346 56.9729L56.6754 56.3989L56.344 55.3517C53.6017 46.6867 46.2413 41.7227 36.1386 41.7227Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M36.2424 35.8508C43.5969 35.8508 49.5786 29.8691 49.5786 22.5146C49.5786 15.1631 43.5969 9.1814 36.2424 9.1814C28.888 9.1814 22.9062 15.1631 22.9062 22.5146C22.9062 29.8691 28.888 35.8508 36.2424 35.8508Z"
-                                          fill="#5F6F52"/>
+                                <svg width="71" height="71">
+                                    <use href="../assets/images/sprite-icons.svg#icon-users"></use>
                                 </svg>
-                                <h5 class="text-primary-800 danaBold text-[16px] mt-6">Corporate Flight Management</h5>
-                                <h6 class="danaRegular text-zinc-900 text-[14px] text-center mt-2">
+
+                                <h5 class="text-primary-800 danaBold text-base mt-6">Corporate Flight Management</h5>
+                                <h6 class="danaRegular text-zinc-900 text-sm text-center mt-2">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut
                                 </h6>
@@ -139,29 +105,12 @@
                         </div>
                         <div class="item w-full card-services flex flex-col relative items-center">
                             <div class="box relative z-10 w-full rounded-3xl p-[24px] bg-primary-50 h-[286px] flex flex-col items-center justify-center">
-                                <svg width="71" height="71" viewBox="0 0 71 71" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M69.067 49.0163C66.9075 42.2535 61.1831 38.384 53.3287 38.384H53.2725C50.0716 38.3544 47.2109 38.9994 44.7969 40.233C51.533 42.3955 56.5267 47.1939 58.8253 53.9833C62.4729 53.4774 65.6442 52.3562 68.4487 50.6434L69.3747 50.0547L69.067 49.0163Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M48.1953 33.2777C49.71 34.1208 51.4229 34.5971 53.2748 34.5971C59.082 34.5971 63.7946 29.8815 63.7946 24.0743C63.7946 18.2966 59.082 13.5811 53.2748 13.5811C52.124 13.5811 51.0294 13.7793 49.991 14.1136C51.5057 16.5571 52.3754 19.4445 52.3754 22.5034C52.3754 26.6569 50.8312 30.417 48.1953 33.2777Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M27.5404 40.1785C25.1826 39.0011 22.4047 38.3828 19.2629 38.3828H19.1505C11.2961 38.3828 5.57177 42.2553 3.43881 49.0151L3.10156 50.0534L4.02752 50.6421C6.69298 52.2722 9.83769 53.3638 13.3433 53.9259C15.6715 47.1099 20.751 42.2819 27.5404 40.1785Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M19.2103 34.5942C21.0622 34.5942 22.7721 34.1179 24.2897 33.2748C21.6509 30.4141 20.1067 26.654 20.1067 22.5005C20.1067 19.4445 20.9764 16.5542 22.494 14.1136C21.4557 13.7763 20.3611 13.5781 19.2103 13.5781C13.4031 13.5781 8.6875 18.2937 8.6875 24.0713C8.6875 29.8816 13.4031 34.5942 19.2103 34.5942Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M36.1386 41.7227C36.0913 41.7227 36.0469 41.7227 36.0025 41.7227C25.9028 41.7227 18.5395 46.6867 15.8001 55.3517L15.4688 56.3989L16.4065 56.9729C21.7552 60.2329 28.1452 61.8186 35.9404 61.8186H36.1919C43.993 61.8186 50.386 60.2329 55.7346 56.9729L56.6754 56.3989L56.344 55.3517C53.6017 46.6867 46.2413 41.7227 36.1386 41.7227Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M36.2424 35.8508C43.5969 35.8508 49.5786 29.8691 49.5786 22.5146C49.5786 15.1631 43.5969 9.1814 36.2424 9.1814C28.888 9.1814 22.9062 15.1631 22.9062 22.5146C22.9062 29.8691 28.888 35.8508 36.2424 35.8508Z"
-                                          fill="#5F6F52"/>
+                                <svg width="71" height="71">
+                                    <use href="../assets/images/sprite-icons.svg#icon-users"></use>
                                 </svg>
-                                <h5 class="text-primary-800 danaBold text-[16px] mt-6">Corporate Flight Management</h5>
-                                <h6 class="danaRegular text-zinc-900 text-[14px] text-center mt-2">
+
+                                <h5 class="text-primary-800 danaBold text-base mt-6">Corporate Flight Management</h5>
+                                <h6 class="danaRegular text-zinc-900 text-sm text-center mt-2">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut
                                 </h6>
@@ -171,29 +120,12 @@
                         </div>
                         <div class="item w-full card-services flex flex-col relative items-center">
                             <div class="box relative z-10 w-full rounded-3xl p-[24px] bg-primary-50 h-[286px] flex flex-col items-center justify-center">
-                                <svg width="71" height="71" viewBox="0 0 71 71" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M69.067 49.0163C66.9075 42.2535 61.1831 38.384 53.3287 38.384H53.2725C50.0716 38.3544 47.2109 38.9994 44.7969 40.233C51.533 42.3955 56.5267 47.1939 58.8253 53.9833C62.4729 53.4774 65.6442 52.3562 68.4487 50.6434L69.3747 50.0547L69.067 49.0163Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M48.1953 33.2777C49.71 34.1208 51.4229 34.5971 53.2748 34.5971C59.082 34.5971 63.7946 29.8815 63.7946 24.0743C63.7946 18.2966 59.082 13.5811 53.2748 13.5811C52.124 13.5811 51.0294 13.7793 49.991 14.1136C51.5057 16.5571 52.3754 19.4445 52.3754 22.5034C52.3754 26.6569 50.8312 30.417 48.1953 33.2777Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M27.5404 40.1785C25.1826 39.0011 22.4047 38.3828 19.2629 38.3828H19.1505C11.2961 38.3828 5.57177 42.2553 3.43881 49.0151L3.10156 50.0534L4.02752 50.6421C6.69298 52.2722 9.83769 53.3638 13.3433 53.9259C15.6715 47.1099 20.751 42.2819 27.5404 40.1785Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M19.2103 34.5942C21.0622 34.5942 22.7721 34.1179 24.2897 33.2748C21.6509 30.4141 20.1067 26.654 20.1067 22.5005C20.1067 19.4445 20.9764 16.5542 22.494 14.1136C21.4557 13.7763 20.3611 13.5781 19.2103 13.5781C13.4031 13.5781 8.6875 18.2937 8.6875 24.0713C8.6875 29.8816 13.4031 34.5942 19.2103 34.5942Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M36.1386 41.7227C36.0913 41.7227 36.0469 41.7227 36.0025 41.7227C25.9028 41.7227 18.5395 46.6867 15.8001 55.3517L15.4688 56.3989L16.4065 56.9729C21.7552 60.2329 28.1452 61.8186 35.9404 61.8186H36.1919C43.993 61.8186 50.386 60.2329 55.7346 56.9729L56.6754 56.3989L56.344 55.3517C53.6017 46.6867 46.2413 41.7227 36.1386 41.7227Z"
-                                          fill="#5F6F52"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M36.2424 35.8508C43.5969 35.8508 49.5786 29.8691 49.5786 22.5146C49.5786 15.1631 43.5969 9.1814 36.2424 9.1814C28.888 9.1814 22.9062 15.1631 22.9062 22.5146C22.9062 29.8691 28.888 35.8508 36.2424 35.8508Z"
-                                          fill="#5F6F52"/>
+                                <svg width="71" height="71">
+                                    <use href="../assets/images/sprite-icons.svg#icon-users"></use>
                                 </svg>
-                                <h5 class="text-primary-800 danaBold text-[16px] mt-6">Corporate Flight Management</h5>
-                                <h6 class="danaRegular text-zinc-900 text-[14px] text-center mt-2">
+
+                                <h5 class="text-primary-800 danaBold text-base mt-6">Corporate Flight Management</h5>
+                                <h6 class="danaRegular text-zinc-900 text-sm text-center mt-2">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut
                                 </h6>
@@ -210,8 +142,8 @@
         <div class="c-container">
             <div class="p-about w-full flex flex-col items-center">
                 <div class="title w-full flex items-center flex-col">
-                    <h2 class="danaBold  text-[36px] text-zinc-900 title-animate">What We Aim For</h2>
-                    <h5 class="text-zinc-600 text-center text-[16px] mt-5">
+                    <h2 class="danaBold  text-4xl text-zinc-900 title-animate">What We Aim For</h2>
+                    <h5 class="text-zinc-600 text-center text-base mt-5">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae
                         congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi
@@ -232,8 +164,8 @@
                     </h5>
                 </div>
                 <div class="title w-full mt-12 flex items-center flex-col">
-                    <h2 class="danaBold text-[36px] text-zinc-900 title-animate">The People Behind Us</h2>
-                    <h5 class="text-zinc-600 text-center text-[16px] mt-2">
+                    <h2 class="danaBold text-4xl text-zinc-900 title-animate">The People Behind Us</h2>
+                    <h5 class="text-zinc-600 text-center text-base mt-2">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua
                     </h5>
@@ -243,43 +175,43 @@
                         <div class="img rounded-xl overflow-hidden h-[220px] w-full">
                             <img class="w-full h-full ease" src="../assets/images/user.png" alt="">
                         </div>
-                        <h5 class="danaRegular text-zinc-900 mt-2 mb-0 leading-5 text-[16px]">Mohsen Heydari</h5>
-                        <span class="danaRegular text-primary-800 text-[12px]">support</span>
+                        <h5 class="danaRegular text-zinc-900 mt-2 mb-0 leading-[20px] text-base">Mohsen Heydari</h5>
+                        <span class="danaRegular text-primary-800 text-xs">support</span>
                     </div>
                     <div class="item-user flex flex-col items-start">
                         <div class="img rounded-xl overflow-hidden h-[220px] w-full">
                             <img class="w-full h-full ease" src="../assets/images/user.png" alt="">
                         </div>
-                        <h5 class="danaRegular text-zinc-900 mt-2 mb-0 leading-5 text-[16px]">Mohsen Heydari</h5>
-                        <span class="danaRegular text-primary-800 text-[12px]">support</span>
+                        <h5 class="danaRegular text-zinc-900 mt-2 mb-0 leading-[20px] text-base">Mohsen Heydari</h5>
+                        <span class="danaRegular text-primary-800 text-xs">support</span>
                     </div>
                     <div class="item-user flex flex-col items-start">
                         <div class="img rounded-xl overflow-hidden h-[220px] w-full">
                             <img class="w-full h-full ease" src="../assets/images/user.png" alt="">
                         </div>
-                        <h5 class="danaRegular text-zinc-900 mt-2 mb-0 leading-5 text-[16px]">Mohsen Heydari</h5>
-                        <span class="danaRegular text-primary-800 text-[12px]">support</span>
+                        <h5 class="danaRegular text-zinc-900 mt-2 mb-0 leading-[20px] text-base">Mohsen Heydari</h5>
+                        <span class="danaRegular text-primary-800 text-xs">support</span>
                     </div>
                     <div class="item-user flex flex-col items-start">
                         <div class="img rounded-xl overflow-hidden h-[220px] w-full">
                             <img class="w-full h-full ease" src="../assets/images/user.png" alt="">
                         </div>
-                        <h5 class="danaRegular text-zinc-900 mt-2 mb-0 leading-5 text-[16px]">Mohsen Heydari</h5>
-                        <span class="danaRegular text-primary-800 text-[12px]">support</span>
+                        <h5 class="danaRegular text-zinc-900 mt-2 mb-0 leading-[20px] text-base">Mohsen Heydari</h5>
+                        <span class="danaRegular text-primary-800 text-xs">support</span>
                     </div>
                     <div class="item-user flex flex-col items-start">
                         <div class="img rounded-xl overflow-hidden h-[220px] w-full">
                             <img class="w-full h-full ease" src="../assets/images/user.png" alt="">
                         </div>
-                        <h5 class="danaRegular text-zinc-900 mt-2 mb-0 leading-5 text-[16px]">Mohsen Heydari</h5>
-                        <span class="danaRegular text-primary-800 text-[12px]">support</span>
+                        <h5 class="danaRegular text-zinc-900 mt-2 mb-0 leading-[20px] text-base">Mohsen Heydari</h5>
+                        <span class="danaRegular text-primary-800 text-xs">support</span>
                     </div>
                     <div class="item-user flex flex-col items-start">
                         <div class="img rounded-xl overflow-hidden h-[220px] w-full">
                             <img class="w-full h-full ease" src="../assets/images/user.png" alt="">
                         </div>
-                        <h5 class="danaRegular text-zinc-900 mt-2 mb-0 leading-5 text-[16px]">Mohsen Heydari</h5>
-                        <span class="danaRegular text-primary-800 text-[12px]">support</span>
+                        <h5 class="danaRegular text-zinc-900 mt-2 mb-0 leading-[20px] text-base">Mohsen Heydari</h5>
+                        <span class="danaRegular text-primary-800 text-xs">support</span>
                     </div>
                 </div>
             </div>
@@ -289,23 +221,23 @@
         <div class="c-container">
             <div class="p-contact-us w-full grid grid-cols-[2fr_1fr] gap-7">
                 <div class="start mt-2 flex flex-col items-start">
-                    <h2 class="danaBold title-animate text-[36px] text-zinc-900">Contact our experts</h2>
-                    <h5 class="text-zinc-600 text-center text-[16px] mt-2">
+                    <h2 class="danaBold title-animate text-4xl text-zinc-900">Contact our experts</h2>
+                    <h5 class="text-zinc-600 text-center text-base mt-2">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u
                     </h5>
                     <form class="w-full grid  gap-3 mt-8" action="">
                         <div class="top grid grid-cols-2 gap-3">
-                            <input class="px-4 bg-primary-50 text-primary-800 placeholder:text-primary-800 rounded-xl h-[58px] text-[16px] w-full danaRegular"
+                            <input class="px-4 bg-primary-50 text-primary-800 placeholder:text-primary-800 rounded-xl h-[58px] text-base w-full danaRegular"
                                    placeholder="First name / last name" type="text">
-                            <input class="px-4 bg-primary-50 text-primary-800  rounded-xl h-[58px] text-[16px] w-full danaRegular"
+                            <input class="px-4 bg-primary-50 text-primary-800  rounded-xl h-[58px] text-base w-full danaRegular"
                                    placeholder="Number phone" type="text">
                         </div>
                         <div class="mid w-full">
-                            <input class="px-4 bg-primary-50 text-primary-800  rounded-xl h-[58px] text-[16px] w-full danaRegular"
+                            <input class="px-4 bg-primary-50 text-primary-800  rounded-xl h-[58px] text-base w-full danaRegular"
                                    placeholder="Submit your question to our experts" type="text">
                         </div>
                         <div class="mid w-full">
-                            <input class="px-4 bg-primary-50 text-primary-800  rounded-xl h-[58px] text-[16px] w-full danaRegular"
+                            <input class="px-4 bg-primary-50 text-primary-800  rounded-xl h-[58px] text-base w-full danaRegular"
                                    placeholder="Submit your question to our experts" type="text">
                         </div>
                         <div class="bottom w-full flex justify-start mt-3 gap-3">
@@ -323,9 +255,9 @@
                                 </svg>
 
                             </button>
-                            <img class="rounded-xl h-[58px] object-cover border border-solid border-[#f4f4f4]"
+                            <img class="rounded-xl h-[58px] object-cover border-1 border-[#f4f4f4]"
                                  src="../assets/images/captcha.png" alt="">
-                            <input class="px-4 bg-primary-50  rounded-xl h-[58px] text-primary-800 text-[16px] w-[13%] danaRegular"
+                            <input class="px-4 bg-primary-50  rounded-xl h-[58px] text-primary-800 text-base w-[13%] danaRegular"
                                    placeholder="code" type="text">
                             <button class="bg-primary-800 h-[58px] w-[58px] rounded-xl flex items-center justify-center">
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
@@ -344,54 +276,41 @@
                 <div class="end flex flex-col items-start gap-4">
                     <div class="item w-full flex items-center gap-2">
                         <div class="bg h-[56px] w-[12%] rounded-xl bg-primary-800 flex items-center justify-center">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                      d="M3.9902 3.89737C4.97468 2.84117 6.37669 2.25 8.03216 2.25H16.4669C18.1262 2.25 19.5288 2.84084 20.5129 3.89765C21.4913 4.94841 22 6.39889 22 8.02638V15.9736C22 17.6011 21.4913 19.0516 20.5127 20.1024C19.5285 21.1592 18.1257 21.75 16.4659 21.75H8.03216C7.83356 21.75 7.63863 21.7415 7.44767 21.7248C7.40321 21.7245 7.35816 21.7203 7.31293 21.7118L7.3108 21.7114C5.96572 21.5643 4.82436 21.0023 3.98657 20.1023C3.00842 19.0515 2.5 17.601 2.5 15.9736V8.02638C2.5 7.27229 2.60963 6.55637 2.82459 5.90068L2.82522 5.89758C2.83905 5.83054 2.86143 5.76745 2.89098 5.70921C3.14098 5.02623 3.5091 4.41351 3.9902 3.89737ZM4.10387 6.92712C4.03586 7.26992 4 7.63705 4 8.02638V15.9736C4 17.2914 4.40861 18.3541 5.08451 19.0802C5.53285 19.5619 6.12367 19.9226 6.85148 20.1086L9.13694 7.96529L4.10387 6.92712ZM10.1184 6.63616L4.64387 5.50692C4.77466 5.29232 4.92321 5.09633 5.08745 4.92012C5.75921 4.19943 6.74828 3.75 8.03216 3.75H16.4669C17.7556 3.75 18.7446 4.19975 19.4151 4.91984C20.0912 5.64597 20.5 6.70868 20.5 8.02638V8.77758L10.2056 6.65415C10.1872 6.6492 10.1684 6.64491 10.1493 6.64132C10.139 6.63938 10.1287 6.63766 10.1184 6.63616ZM10.6062 8.26836L8.35121 20.25H16.4659C17.7552 20.25 18.7444 19.8002 19.415 19.0801C20.0912 18.354 20.5 17.2913 20.5 15.9736V10.3092L10.6062 8.26836ZM14.8749 12.4906C13.8102 12.4906 12.9473 13.3535 12.9473 14.4182C12.9473 15.0965 13.3644 15.8536 13.9362 16.4973C14.211 16.8065 14.4941 17.0581 14.7218 17.2265C14.7795 17.2691 14.8308 17.3043 14.8749 17.3326C14.919 17.3043 14.9703 17.2691 15.028 17.2265C15.2557 17.0581 15.5388 16.8065 15.8136 16.4973C16.3854 15.8536 16.8025 15.0965 16.8025 14.4182C16.8025 13.3535 15.9396 12.4906 14.8749 12.4906ZM14.7201 17.418C14.7201 17.418 14.7241 17.4161 14.7314 17.4137C14.7236 17.4171 14.7201 17.418 14.7201 17.418ZM15.0184 17.4137C15.0257 17.4161 15.0297 17.418 15.0297 17.418C15.0297 17.418 15.0261 17.4171 15.0184 17.4137ZM11.4473 14.4182C11.4473 12.5251 12.9818 10.9906 14.8749 10.9906C16.768 10.9906 18.3025 12.5251 18.3025 14.4182C18.3025 15.645 17.5949 16.7507 16.9349 17.4935C16.5938 17.8775 16.2343 18.2001 15.9198 18.4326C15.7633 18.5483 15.6067 18.65 15.4599 18.7267C15.3495 18.7843 15.1259 18.8937 14.8749 18.8937C14.6239 18.8937 14.4003 18.7843 14.2898 18.7267C14.143 18.65 13.9865 18.5483 13.83 18.4326C13.5155 18.2001 13.156 17.8775 12.8148 17.4935C12.1549 16.7507 11.4473 15.645 11.4473 14.4182ZM14.8748 13.645C15.2891 13.645 15.6248 13.9808 15.6248 14.395V14.4261C15.6248 14.8404 15.2891 15.1761 14.8748 15.1761C14.4606 15.1761 14.1248 14.8404 14.1248 14.4261V14.395C14.1248 13.9808 14.4606 13.645 14.8748 13.645Z"
-                                      fill="#F9F9F6"/>
+                            <svg width="24" height="25">
+                                <use href="../assets/images/sprite-icons.svg#icon-map-white"></use>
                             </svg>
-
                         </div>
                         <div class="detail  p-3 h-[56px] w-[88%] rounded-xl bg-primary-50 flex flex-col items-start">
-                            <h5 class="danaBold relative top-[-3px] leading-5 text-[16px]  text-primary-800">
+                            <h5 class="danaBold relative top-[-3px] leading-[20px] text-base  text-primary-800">
                                 Address</h5>
-                            <p class="danaRegular text-[12px] text-primary-950">Lorem ipsum dolor sit amet, consectetur
+                            <p class="danaRegular text-xs text-primary-950">Lorem ipsum dolor sit amet, consectetur
                                 adipiscing</p>
                         </div>
                     </div>
                     <div class="item w-full flex items-center gap-2">
                         <div class="bg h-[56px] w-[12%] rounded-xl bg-primary-800 flex items-center justify-center">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                      d="M6.65717 2.00054C7.77417 2.01554 8.57017 2.85254 9.57717 3.91154C9.82617 4.17254 10.0952 4.45754 10.3962 4.75754C11.8552 6.21754 11.4402 7.40854 11.1052 8.36454C10.7412 9.40754 10.4262 10.3075 12.3122 12.1935C14.1982 14.0795 15.0972 13.7645 16.1392 13.3975C17.0962 13.0635 18.2842 12.6455 19.7462 14.1055C20.0432 14.4025 20.3232 14.6685 20.5832 14.9155C21.6462 15.9275 22.4862 16.7265 22.5003 17.8465C22.5112 18.8005 21.9312 19.7745 20.4992 21.2065L19.8652 20.7765L20.4022 21.2995C20.0852 21.6245 19.2422 22.4905 17.5912 22.5005H17.5612C15.0692 22.5005 11.8202 20.5165 7.90417 16.6015C3.97217 12.6705 1.98517 9.41154 2.00008 6.91454C2.00917 5.26454 2.87417 4.41954 3.19917 4.10254L3.22691 4.07224L3.29417 4.00454C4.72917 2.56954 5.71517 1.97954 6.65717 2.00054ZM6.63817 3.50054H6.63017C6.18111 3.50054 5.49913 3.95054 4.54799 4.87444L4.357 5.062L4.35917 5.06154C4.35917 5.06154 4.34285 5.08026 4.31503 5.10863L4.24817 5.17554C4.00617 5.41054 3.50517 5.89954 3.50012 6.92254C3.49217 8.35354 4.43317 11.0105 8.96417 15.5405C13.4732 20.0485 16.1262 21.0005 17.5612 21.0005H17.5822C18.6052 20.9945 19.0932 20.4935 19.3282 20.2525C19.3992 20.1795 19.4572 20.1245 19.4982 20.0915C20.4952 19.0885 21.0052 18.3435 21.0002 17.8645C20.9942 17.3765 20.3872 16.8005 19.5482 16.0015C19.2812 15.7485 18.9912 15.4715 18.6852 15.1655C17.8912 14.3745 17.5002 14.5095 16.6352 14.8135C15.4402 15.2325 13.8032 15.8065 11.2522 13.2535C8.70017 10.7025 9.27217 9.06554 9.68917 7.86954C9.99117 7.00554 10.1292 6.61254 9.33617 5.81854C9.02617 5.50854 8.74717 5.21454 8.49017 4.94454C7.69617 4.11054 7.12317 3.50754 6.63817 3.50054ZM15.2463 5.55804C17.3273 5.96204 18.9343 7.56804 19.3393 9.65004C19.4183 10.058 19.1533 10.451 18.7473 10.53C18.6983 10.539 18.6503 10.544 18.6023 10.544C18.2503 10.544 17.9373 10.296 17.8673 9.93804C17.5793 8.45804 16.4383 7.31704 14.9603 7.03004C14.5533 6.95104 14.2883 6.55804 14.3673 6.15104C14.4463 5.74404 14.8463 5.47804 15.2463 5.55804ZM15.1864 2.00624C19.2644 2.45924 22.4314 5.62224 22.8884 9.69924C22.9344 10.1112 22.6384 10.4822 22.2274 10.5282C22.1994 10.5312 22.1704 10.5332 22.1424 10.5332C21.7654 10.5332 21.4414 10.2502 21.3984 9.86724C21.0194 6.49124 18.3974 3.87124 15.0204 3.49624C14.6094 3.45024 14.3124 3.08024 14.3584 2.66824C14.4034 2.25724 14.7704 1.95424 15.1864 2.00624Z"
-                                      fill="#F9F9F6"/>
+                            <svg width="24" height="25">
+                                <use href="../assets/images/sprite-icons.svg#icon-tel-white"></use>
                             </svg>
-
-
                         </div>
                         <div class="detail  p-3 h-[56px] w-[88%] rounded-xl bg-primary-50 flex flex-col items-start">
-                            <h5 class="danaBold relative top-[-3px] leading-5 text-[16px]  text-primary-800">
+                            <h5 class="danaBold relative top-[-3px] leading-[20px] text-base  text-primary-800">
                                 Contact Us</h5>
-                            <p class="danaRegular text-[12px] text-primary-950">Lorem ipsum dolor sit amet, consectetur
+                            <p class="danaRegular text-xs text-primary-950">Lorem ipsum dolor sit amet, consectetur
                                 adipiscing</p>
                         </div>
                     </div>
                     <div class="item w-full flex items-center gap-2">
                         <div class="bg h-[56px] w-[12%] rounded-xl bg-primary-800 flex items-center justify-center">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M16.4329 20.8484H7.56896C6.89354 20.8578 6.22309 20.7315 5.59734 20.4772C4.97158 20.2228 4.40324 19.8454 3.92596 19.3674C3.37781 18.8003 2.9476 18.1301 2.66026 17.3956C2.37291 16.6611 2.23413 15.8769 2.25196 15.0884V8.91144C2.20801 8.17929 2.31262 7.44581 2.55951 6.75514C2.8064 6.06447 3.19045 5.43089 3.68857 4.8925C4.18669 4.35412 4.78857 3.92207 5.45801 3.62235C6.12745 3.32262 6.8506 3.16142 7.58396 3.14844H16.4199C17.1533 3.16142 17.8764 3.32262 18.5459 3.62235C19.2153 3.92207 19.8172 4.35412 20.3153 4.8925C20.8134 5.43089 21.1975 6.06447 21.4443 6.75514C21.6912 7.44581 21.7959 8.17929 21.7519 8.91144V15.0884C21.7692 15.8762 21.6302 16.6597 21.3428 17.3935C21.0555 18.1272 20.6257 18.7968 20.0779 19.3634C19.6007 19.8423 19.0322 20.2205 18.406 20.4756C17.78 20.7307 17.1089 20.8575 16.4329 20.8484ZM7.58196 19.3484H16.431C16.9101 19.3567 17.3859 19.2687 17.8303 19.0895C18.2747 18.9104 18.6786 18.6437 19.018 18.3054C19.4261 17.8773 19.7451 17.3726 19.9569 16.8204C20.1687 16.2682 20.269 15.6796 20.2519 15.0884V8.91144C20.2519 6.44144 18.6409 4.64844 16.4199 4.64844H7.58396C5.36296 4.64844 3.75196 6.44144 3.75196 8.91144V15.0884C3.7354 15.6789 3.83591 16.2668 4.0477 16.8183C4.2595 17.3697 4.57838 17.8738 4.98596 18.3014C5.32503 18.6395 5.72856 18.9061 6.17261 19.0852C6.61666 19.2644 7.09219 19.3525 7.57096 19.3444L7.58196 19.3484Z"
-                                      fill="#F9F9F6"/>
-                                <path d="M12.0214 13.6173C11.385 13.617 10.7676 13.4005 10.2704 13.0033L6.23239 9.74832C6.07751 9.62341 5.97858 9.44208 5.95739 9.24423C5.9362 9.04638 5.99448 8.84821 6.11939 8.69332C6.24431 8.53844 6.42564 8.43952 6.62349 8.41833C6.82134 8.39714 7.01951 8.45541 7.17439 8.58032L11.2074 11.8323C11.4396 12.0179 11.7281 12.1191 12.0254 12.1191C12.3227 12.1191 12.6112 12.0179 12.8434 11.8323L16.8354 8.58632C16.9898 8.46074 17.1877 8.40163 17.3856 8.42197C17.5836 8.44232 17.7653 8.54047 17.8909 8.69482C18.0165 8.84918 18.0756 9.0471 18.0553 9.24505C18.0349 9.44299 17.9368 9.62474 17.7824 9.75032L13.7824 13.0023C13.2819 13.4006 12.6611 13.6174 12.0214 13.6173Z"
-                                      fill="#F9F9F6"/>
-                            </svg>
 
+                            <svg width="24" height="25">
+                                <use href="../assets/images/sprite-icons.svg#icon-email-white"></use>
+                            </svg>
                         </div>
                         <div class="detail  p-3 h-[56px] w-[88%] rounded-xl bg-primary-50 flex flex-col items-start">
-                            <h5 class="danaBold relative top-[-3px] leading-5 text-[16px]  text-primary-800">
+                            <h5 class="danaBold relative top-[-3px] leading-[20px] text-base  text-primary-800">
                                 Email</h5>
-                            <p class="danaRegular text-[12px] text-primary-950">Lorem ipsum dolor sit amet, consectetur
+                            <p class="danaRegular text-xs text-primary-950">Lorem ipsum dolor sit amet, consectetur
                                 adipiscing</p>
                         </div>
                     </div>
@@ -399,8 +318,8 @@
 
                 </div>
             </div>
-            <div class="p-social-media mt-12 border-[2px] border-zinc-300 gap-3 rounded-xl h-[180px] flex flex-col items-center justify-center">
-                <h2 class="danaBold title-animate text-[36px] text-zinc-900">Fallow me</h2>
+            <div class="p-social-media mt-12 border border-zinc-300 gap-3 rounded-xl h-[180px] flex flex-col items-center justify-center">
+                <h2 class="danaBold title-animate text-4xl text-zinc-900">Fallow me</h2>
                 <div class="w-full mt-4 flex items-center justify-center gap-14">
                     <a class="ease hover:scale-[1.1]" href=""><img width="54" src="../assets/images/instagram.png"
                                                                    alt=""></a>
@@ -421,15 +340,15 @@
         <div class="c-container">
             <div class="w-full grid grid-cols-[1.8fr_1fr_1.3fr]">
                 <div class="col-1 w-full flex flex-col pr-[3rem]">
-                    <div class="w-full flex items-center justify-between footer-links border  border-b-solid border-b-zinc-300 pb-5">
-                        <a class="text-primary-950 relative danaBold text-[16px]" href="">Home</a>
-                        <a class="text-primary-950 relative danaBold text-[16px]" href="">Flight</a>
-                        <a class="text-primary-950 relative danaBold text-[16px]" href="">Hotel</a>
-                        <a class="text-primary-950 relative danaBold text-[16px]" href="">tour</a>
-                        <a class="text-primary-950 relative danaBold text-[16px]" href="">News</a>
-                        <a class="text-primary-950 relative danaBold text-[16px]" href="">About Us</a>
+                    <div class="w-full flex items-center justify-between footer-links border-b-1 border-zinc-300 pb-5">
+                        <a class="text-primary-950 relative danaBold text-base" href="">Home</a>
+                        <a class="text-primary-950 relative danaBold text-base" href="">Flight</a>
+                        <a class="text-primary-950 relative danaBold text-base" href="">Hotel</a>
+                        <a class="text-primary-950 relative danaBold text-base" href="">tour</a>
+                        <a class="text-primary-950 relative danaBold text-base" href="">News</a>
+                        <a class="text-primary-950 relative danaBold text-base" href="">About Us</a>
                     </div>
-                    <p class="text-[12px] text-zinc-600  text-justify mt-4">Lorem ipsum dolor sit amet, consectetur
+                    <p class="text-xs text-zinc-600  text-justify mt-4">Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae
                         congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi
@@ -450,7 +369,7 @@
                         </div>
                     </div>
                     <div class="flex items-center gap-4 mt-7">
-                        <span class="text-[#8F94BA] text-[12px] danaRegular">Web Design & Online Reservation By</span>
+                        <span class="text-[#8F94BA] text-xs danaRegular">Web Design & Online Reservation By</span>
                         <svg width="68" height="17" viewBox="0 0 68 17" fill="none" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink">
                             <rect width="68" height="17" fill="url(#pattern0_23_849)"/>
@@ -468,25 +387,25 @@
                 </div>
                 <div class="col-2 border-x-1 border-zinc-300  px-8 grid grid-cols-2 w-full">
                     <div class="flex flex-col items-center">
-                        <h5 class="danaBold text-zinc-950 text-[16px]">Category</h5>
+                        <h5 class="danaBold text-zinc-950 text-base">Category</h5>
                         <ul class="grid relative left-[-12px] mt-7 gap-6">
-                            <li><a class="text-zinc-600 hover:text-zinc-400 ease text-[12px] danaRegular"
+                            <li><a class="text-zinc-600 hover:text-zinc-400 ease text-xs danaRegular"
                                    href="">Hotel</a></li>
-                            <li><a class="text-zinc-600 hover:text-zinc-400 ease text-[12px] danaRegular"
+                            <li><a class="text-zinc-600 hover:text-zinc-400 ease text-xs danaRegular"
                                    href="">Hotel</a></li>
-                            <li><a class="text-zinc-600 hover:text-zinc-400 ease text-[12px] danaRegular"
+                            <li><a class="text-zinc-600 hover:text-zinc-400 ease text-xs danaRegular"
                                    href="">Hotel</a></li>
-                            <li><a class="text-zinc-600 hover:text-zinc-400 ease text-[12px] danaRegular"
+                            <li><a class="text-zinc-600 hover:text-zinc-400 ease text-xs danaRegular"
                                    href="">Hotel</a></li>
                         </ul>
                     </div>
                     <div class="flex flex-col items-center">
-                        <h5 class="danaBold text-zinc-950 text-[16px]">Category</h5>
+                        <h5 class="danaBold text-zinc-950 text-base">Category</h5>
                         <ul class="grid relative left-[-12px] mt-7 gap-6">
-                            <li><a class="text-zinc-600 text-[12px] danaRegular" href="">Hotel</a></li>
-                            <li><a class="text-zinc-600 text-[12px] danaRegular" href="">Hotel</a></li>
-                            <li><a class="text-zinc-600 text-[12px] danaRegular" href="">Hotel</a></li>
-                            <li><a class="text-zinc-600 text-[12px] danaRegular" href="">Hotel</a></li>
+                            <li><a class="text-zinc-600 text-xs danaRegular" href="">Hotel</a></li>
+                            <li><a class="text-zinc-600 text-xs danaRegular" href="">Hotel</a></li>
+                            <li><a class="text-zinc-600 text-xs danaRegular" href="">Hotel</a></li>
+                            <li><a class="text-zinc-600 text-xs danaRegular" href="">Hotel</a></li>
                         </ul>
                     </div>
                 </div>
@@ -499,11 +418,11 @@
                                       d="M6.65717 2.00054C7.77417 2.01554 8.57017 2.85254 9.57717 3.91154C9.82617 4.17254 10.0952 4.45754 10.3962 4.75754C11.8552 6.21754 11.4402 7.40854 11.1052 8.36454C10.7412 9.40754 10.4262 10.3075 12.3122 12.1935C14.1982 14.0795 15.0972 13.7645 16.1392 13.3975C17.0962 13.0635 18.2842 12.6455 19.7462 14.1055C20.0432 14.4025 20.3232 14.6685 20.5832 14.9155C21.6462 15.9275 22.4862 16.7265 22.5003 17.8465C22.5112 18.8005 21.9312 19.7745 20.4992 21.2065L19.8652 20.7765L20.4022 21.2995C20.0852 21.6245 19.2422 22.4905 17.5912 22.5005H17.5612C15.0692 22.5005 11.8202 20.5165 7.90417 16.6015C3.97217 12.6705 1.98517 9.41154 2.00008 6.91454C2.00917 5.26454 2.87417 4.41954 3.19917 4.10254L3.22691 4.07224L3.29417 4.00454C4.72917 2.56954 5.71517 1.97954 6.65717 2.00054ZM6.63817 3.50054H6.63017C6.18111 3.50054 5.49913 3.95054 4.54799 4.87444L4.357 5.062L4.35917 5.06154C4.35917 5.06154 4.34285 5.08026 4.31503 5.10863L4.24817 5.17554C4.00617 5.41054 3.50517 5.89954 3.50012 6.92254C3.49217 8.35354 4.43317 11.0105 8.96417 15.5405C13.4732 20.0485 16.1262 21.0005 17.5612 21.0005H17.5822C18.6052 20.9945 19.0932 20.4935 19.3282 20.2525C19.3992 20.1795 19.4572 20.1245 19.4982 20.0915C20.4952 19.0885 21.0052 18.3435 21.0002 17.8645C20.9942 17.3765 20.3872 16.8005 19.5482 16.0015C19.2812 15.7485 18.9912 15.4715 18.6852 15.1655C17.8912 14.3745 17.5002 14.5095 16.6352 14.8135C15.4402 15.2325 13.8032 15.8065 11.2522 13.2535C8.70017 10.7025 9.27217 9.06554 9.68917 7.86954C9.99117 7.00554 10.1292 6.61254 9.33617 5.81854C9.02617 5.50854 8.74717 5.21454 8.49017 4.94454C7.69617 4.11054 7.12317 3.50754 6.63817 3.50054ZM15.2463 5.55804C17.3273 5.96204 18.9343 7.56804 19.3393 9.65004C19.4183 10.058 19.1533 10.451 18.7473 10.53C18.6983 10.539 18.6503 10.544 18.6023 10.544C18.2503 10.544 17.9373 10.296 17.8673 9.93804C17.5793 8.45804 16.4383 7.31704 14.9603 7.03004C14.5533 6.95104 14.2883 6.55804 14.3673 6.15104C14.4463 5.74404 14.8463 5.47804 15.2463 5.55804ZM15.1864 2.00624C19.2644 2.45924 22.4314 5.62224 22.8884 9.69924C22.9344 10.1112 22.6384 10.4822 22.2274 10.5282C22.1994 10.5312 22.1704 10.5332 22.1424 10.5332C21.7654 10.5332 21.4414 10.2502 21.3984 9.86724C21.0194 6.49124 18.3974 3.87124 15.0204 3.49624C14.6094 3.45024 14.3124 3.08024 14.3584 2.66824C14.4034 2.25724 14.7704 1.95424 15.1864 2.00624Z"
                                       fill="#5F6F52"/>
                             </svg>
-                            <h5 class="danaBold text-[16px] text-primary-800">Contact Us</h5>
+                            <h5 class="danaBold text-base text-primary-800">Contact Us</h5>
                         </div>
                         <div class="flex items-center gap-6 mt-3">
-                            <a class="text-primary-900 text-[14px]" href="">021-22334466</a>
-                            <a class="text-primary-900 text-[14px]" href="">021-22554477</a>
+                            <a class="text-primary-900 text-sm" href="">021-22334466</a>
+                            <a class="text-primary-900 text-sm" href="">021-22554477</a>
                         </div>
                     </div>
                     <div class="item mt-3 flex flex-col">
@@ -515,10 +434,10 @@
                                 <path d="M12.0253 13.6173C11.3889 13.617 10.7715 13.4005 10.2743 13.0033L6.2363 9.74832C6.08142 9.62341 5.98249 9.44208 5.9613 9.24423C5.94011 9.04638 5.99839 8.84821 6.1233 8.69332C6.24822 8.53844 6.42955 8.43952 6.6274 8.41833C6.82525 8.39714 7.02342 8.45541 7.1783 8.58032L11.2113 11.8323C11.4435 12.0179 11.732 12.1191 12.0293 12.1191C12.3266 12.1191 12.6151 12.0179 12.8473 11.8323L16.8393 8.58632C16.9937 8.46074 17.1916 8.40163 17.3895 8.42197C17.5875 8.44232 17.7692 8.54047 17.8948 8.69482C18.0204 8.84918 18.0795 9.0471 18.0592 9.24505C18.0388 9.44299 17.9407 9.62474 17.7863 9.75032L13.7863 13.0023C13.2858 13.4006 12.665 13.6174 12.0253 13.6173Z"
                                       fill="#5F6F52"/>
                             </svg>
-                            <h5 class="danaBold text-[16px] text-primary-800">Email</h5>
+                            <h5 class="danaBold text-base text-primary-800">Email</h5>
                         </div>
                         <div class="flex items-center gap-6 mt-3">
-                            <a class="text-primary-900 text-[14px]" href="">Support @gmail.com</a>
+                            <a class="text-primary-900 text-sm" href="">Support @gmail.com</a>
                         </div>
                     </div>
                     <div class="item mt-3 flex flex-col w-full">
@@ -529,11 +448,13 @@
                                       d="M3.9902 3.89737C4.97468 2.84117 6.37669 2.25 8.03216 2.25H16.4669C18.1262 2.25 19.5288 2.84084 20.5129 3.89765C21.4913 4.94841 22 6.39889 22 8.02638V15.9736C22 17.6011 21.4913 19.0516 20.5127 20.1024C19.5285 21.1592 18.1257 21.75 16.4659 21.75H8.03216C7.83356 21.75 7.63863 21.7415 7.44767 21.7248C7.40321 21.7245 7.35816 21.7203 7.31293 21.7118L7.3108 21.7114C5.96572 21.5643 4.82436 21.0023 3.98657 20.1023C3.00842 19.0515 2.5 17.601 2.5 15.9736V8.02638C2.5 7.27229 2.60963 6.55637 2.82459 5.90068L2.82522 5.89758C2.83905 5.83054 2.86143 5.76745 2.89098 5.70921C3.14098 5.02623 3.5091 4.41351 3.9902 3.89737ZM4.10387 6.92712C4.03586 7.26992 4 7.63705 4 8.02638V15.9736C4 17.2914 4.40861 18.3541 5.08451 19.0802C5.53285 19.5619 6.12367 19.9226 6.85148 20.1086L9.13694 7.96529L4.10387 6.92712ZM10.1184 6.63616L4.64387 5.50692C4.77466 5.29232 4.92321 5.09633 5.08745 4.92012C5.75921 4.19943 6.74828 3.75 8.03216 3.75H16.4669C17.7556 3.75 18.7446 4.19975 19.4151 4.91984C20.0912 5.64597 20.5 6.70868 20.5 8.02638V8.77758L10.2056 6.65415C10.1872 6.6492 10.1684 6.64491 10.1493 6.64132C10.139 6.63938 10.1287 6.63766 10.1184 6.63616ZM10.6062 8.26836L8.35121 20.25H16.4659C17.7552 20.25 18.7444 19.8002 19.415 19.0801C20.0912 18.354 20.5 17.2913 20.5 15.9736V10.3092L10.6062 8.26836ZM14.8749 12.4906C13.8102 12.4906 12.9473 13.3535 12.9473 14.4182C12.9473 15.0965 13.3644 15.8536 13.9362 16.4973C14.211 16.8065 14.4941 17.0581 14.7218 17.2265C14.7795 17.2691 14.8308 17.3043 14.8749 17.3326C14.919 17.3043 14.9703 17.2691 15.028 17.2265C15.2557 17.0581 15.5388 16.8065 15.8136 16.4973C16.3854 15.8536 16.8025 15.0965 16.8025 14.4182C16.8025 13.3535 15.9396 12.4906 14.8749 12.4906ZM14.7201 17.418C14.7201 17.418 14.7241 17.4161 14.7314 17.4137C14.7236 17.4171 14.7201 17.418 14.7201 17.418ZM15.0184 17.4137C15.0257 17.4161 15.0297 17.418 15.0297 17.418C15.0297 17.418 15.0261 17.4171 15.0184 17.4137ZM11.4473 14.4182C11.4473 12.5251 12.9818 10.9906 14.8749 10.9906C16.768 10.9906 18.3025 12.5251 18.3025 14.4182C18.3025 15.645 17.5949 16.7507 16.9349 17.4935C16.5938 17.8775 16.2343 18.2001 15.9198 18.4326C15.7633 18.5483 15.6067 18.65 15.4599 18.7267C15.3495 18.7843 15.1259 18.8937 14.8749 18.8937C14.6239 18.8937 14.4003 18.7843 14.2898 18.7267C14.143 18.65 13.9865 18.5483 13.83 18.4326C13.5155 18.2001 13.156 17.8775 12.8148 17.4935C12.1549 16.7507 11.4473 15.645 11.4473 14.4182ZM14.8748 13.645C15.2891 13.645 15.6248 13.9808 15.6248 14.395V14.4261C15.6248 14.8404 15.2891 15.1761 14.8748 15.1761C14.4606 15.1761 14.1248 14.8404 14.1248 14.4261V14.395C14.1248 13.9808 14.4606 13.645 14.8748 13.645Z"
                                       fill="#5F6F52"/>
                             </svg>
-
-                            <h5 class="danaBold text-[16px] text-primary-800">Address</h5>
+                            <svg width="24" height="24">
+                                <use href="../assets/images/sprite-icons.svg#icon-map"></use>
+                            </svg>
+                            <h5 class="danaBold text-base text-primary-800">Address</h5>
                         </div>
                         <div class="flex items-center gap-6 mt-3">
-                            <p class="text-primary-900 text-[14px]">Lorem ipsum dolor sit amet, consectetur
+                            <p class="text-primary-900 text-sm">Lorem ipsum dolor sit amet, consectetur
                                 adipiscing</p>
                         </div>
                         <img class="w-full h-[105px] rounded-xl mt-3" src="../assets/images/location-img.png"
@@ -551,12 +472,12 @@
             <div class="grid w-full place-items-center py-6">
                 <div class="top flex flex-col w-full items-start">
                     <h2 class="text-white danaBold text-[24px]">Get in Touch with Us</h2>
-                    <span class="text-color-1 text-[14px] danaRegular">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                    <span class="text-color-1 text-sm danaRegular">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
                 </div>
                 <form class="w-full flex items-center gap-2 mt-3" action="">
-                    <input class="px-4 bg-primary-950  rounded-xl h-[58px] text-color-1 text-[16px] w-[30%] danaRegular"
+                    <input class="px-4 bg-primary-950  rounded-xl h-[58px] text-color-1 text-base w-[30%] danaRegular"
                            placeholder="First name / last name" type="text">
-                    <input class="px-4 bg-primary-950  rounded-xl h-[58px] text-color-1 text-[16px] w-[30%] danaRegular"
+                    <input class="px-4 bg-primary-950  rounded-xl h-[58px] text-color-1 text-base w-[30%] danaRegular"
                            placeholder="Email" type="text">
                     <button class="h-[58px] w-[58px] bg-primary-950 flex items-center justify-center rounded-xl">
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -571,7 +492,7 @@
                     </button>
                     <img class="rounded-xl h-[58px] object-cover" width="110" src="../assets/images/captcha.png"
                          alt="">
-                    <input class="px-4 bg-primary-950  rounded-xl h-[58px] text-color-1 text-[16px] w-[13%] danaRegular"
+                    <input class="px-4 bg-primary-950  rounded-xl h-[58px] text-color-1 text-base w-[13%] danaRegular"
                            placeholder="code" type="text">
                     <button class="w-[10%] h-[58px] bg-color-1 rounded-xl flex items-center justify-center">
                         send

@@ -34,6 +34,12 @@ var swiper = new Swiper(".swiper-user", {
     },
     spaceBetween:20,
 });
+
+
+var swiper = new Swiper(".swiper-service", {
+    spaceBetween:8,
+    slidesPerView: 1.2,
+});
 // tab-tour
 function openTab(evt, tabId) {
     const buttons = document.getElementsByClassName("btn-tab");
